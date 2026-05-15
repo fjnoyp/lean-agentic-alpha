@@ -2,7 +2,7 @@
 
 A multi-agent research framework for buy-side investment teams. One analyst brief — "asset, time horizon" — is decomposed into a structured, citation-traceable research cycle that produces an analyst-grade report with three-scenario valuation, portfolio weighting, and a full audit log.
 
-Framework authored by **Neil Brown** (Stanford Capstone, October 2025). The agent prompts in `lean_alpha/prompts/` embed the Deep Research Directive v1.0 and Prompt Pack v2.0.
+Originated as a Stanford Capstone project (October 2025). The agent prompts in `lean_alpha/prompts/` embed the Deep Research Directive v1.0 and Prompt Pack v2.0.
 
 ## What it does, in finance terms
 
