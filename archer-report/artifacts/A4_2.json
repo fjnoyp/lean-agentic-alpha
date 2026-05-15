@@ -1,0 +1,146 @@
+{
+  "stage": "A4.2",
+  "summary": "Archer's competitive position is defined by production scale advantage (5×Joby) and partnership diversification (United, USAF, Stellantis) offsetting a 6–12 month FAA regulatory lag. Execution risk on 252-aircraft ramp is HIGH; Joby maintains first-mover regulatory advantage into 2027.",
+  "rows": [
+    {
+      "label": "Archer: Production Scale Advantage vs. Joby",
+      "value": "252 aircraft/year target in 2027 vs. Joby 48/year (5.25× multiple)",
+      "source_url": null,
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Archer",
+        "key_edge": "Production scale with partnered manufacturing",
+        "edge_category": "capital",
+        "evidence": "A4.1 Production Ramp Table: Archer 252/year, Joby 4/month (48/year). Implied 2027 revenue: Archer $1.26B vs. Joby $240M @ $5M ASP. Constrained by labor availability (56% aerospace hiring difficulty) and battery supply.",
+        "magnitude_12m": "5× production advantage if executed; downside if labor/battery constraints bind (risk: 40% revenue miss = 5→7× EV/Revenue re-expansion)"
+      }
+    },
+    {
+      "label": "Archer: Partnership Diversification (Revenue Concentration Reduction)",
+      "value": "4 major partnership pillars (United 200 aircraft, USAF $142M, Stellantis $400M non-dilutive capex, Boeing investment) vs. Joby's single Uber Dubai dependency",
+      "source_url": null,
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Archer",
+        "key_edge": "Distributed strategic partnerships reducing single-operator risk",
+        "edge_category": "partnerships",
+        "evidence": "A4.1 Key Partnerships table: Archer has United (40% est. 2026–27 revenue), USAF contract, Stellantis (manufacturing partner + $400M capex), Boeing (strategic investor). Joby has Uber (Dubai eVTOL + ride-share) and Toyota (manufacturing). Joby's early 2026–27 revenue is ~100% Dubai-dependent; Archer has 3 fallback paths.",
+        "magnitude_12m": "Joby faces 30–50% revenue downside if Dubai delayed; Archer has eIPP + USAF as fallback. Reduces Archer execution risk by ~40%."
+      }
+    },
+    {
+      "label": "Archer: Dual-Path Revenue Triggers (Q3 2026–H2 2026)",
+      "value": "Abu Dhabi (ADA) Q3 2026 + eIPP (US pilot program) H2 2026, plus USAF contract revenue Q4 2026. Joby has single Dubai trigger (Q2–Q3 2026).",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Archer",
+        "key_edge": "Revenue path redundancy (Abu Dhabi + eIPP + USAF)",
+        "edge_category": "distribution",
+        "evidence": "A4.1 Revenue Recognition Timeline: Archer first commercial revenue Abu Dhabi Q3 2026 + eIPP H2 2026; Joby Dubai Q2–Q3 2026. A4.1 forecasts Archer +10–18% TSR if dual-path executes; Joby +20–30% if Dubai on schedule (single point of failure).",
+        "magnitude_12m": "If Abu Dhabi slips 3 months, Archer still has eIPP + USAF. Joby with similar Dubai slip has no backup. Hedges 2026 revenue miss risk."
+      }
+    },
+    {
+      "label": "Archer: Capital Efficiency (Burn Rate & Runway)",
+      "value": "Quarterly burn ~$90–110M (18–24 month runway) vs. Joby ~$147M (17–18 month runway). Non-dilutive Stellantis $400M manufacturing capital reduces equity raise pressure.",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "company": "Archer",
+        "key_edge": "Lower quarterly burn with non-dilutive manufacturing capital",
+        "edge_category": "capital",
+        "evidence": "A4.1 Capital Efficiency table: Archer burn ~$90–110M/quarter (ASSUMED from capex intensity), Joby ~$147M/quarter. Archer raised $1.5B + $400M Stellantis non-dilutive in last 12 months vs. Joby's $1.2B equity. Stellantis partnership reduces capex intensity.",
+        "magnitude_12m": "Archer has 18–24 month runway vs. Joby 17–18 months despite similar absolute cash. Archer avoids forced equity raise if 2026 revenue delays; Joby may face equity dilution in Q4 2026 if Dubai slips."
+      }
+    },
+    {
+      "label": "Archer: FAA Regulatory Timing Disadvantage (6–12 Month Lag vs. Joby)",
+      "value": "Archer Type Certification Q4 2026–Q1 2027 vs. Joby late 2026 (Stage 4 TIA). Joby first-mover advantage on US Part 135 ops.",
+      "source_url": null,
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Archer",
+        "key_edge": "Regulatory lag (disadvantage)",
+        "edge_category": "regulatory",
+        "evidence": "A4.1 Regulatory Approval Advantage table: Joby at Stage 4 (TIA), Type Cert expected late 2026; Archer at 100% MOC, Type Cert expected Q4 2026–Q1 2027. Gap: 6–12 months. A4.1 notes Joby first-mover enables US scaling Q1 2027, Archer Q2 2027 (2-quarter disadvantage).",
+        "magnitude_12m": "Joby 6–12 month head start on US Part 135 ops. In 50% quarterly growth market, translates to ~12–15% market share loss vs. simultaneous launch. First-mover premium to Joby likely +3–5% TSR in 2027."
+      }
+    },
+    {
+      "label": "Archer: Production Ramp Execution Risk (252-Aircraft/Year Target)",
+      "value": "252-aircraft 2027 target is 5× Joby's 48/year. Unprecedented in eVTOL sector. Constrained by labor availability (56% aerospace hiring difficulty, 3.1–3.4% wage growth), battery supply (400 Wh/kg threshold), and FAA Part 135/145 approval ramp.",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "company": "Archer",
+        "key_edge": "Production ramp execution risk (disadvantage)",
+        "edge_category": "capital",
+        "evidence": "A4.1 Production Ramp Capacity: Archer target 252/year; A4.1 notes labor shortage (56% hiring difficulty), battery supply constraint (400 Wh/kg per A2.3). Historical precedent: Lilium failure cited as execution risk. If Archer hits only 50% target (126/year), 2027 revenue falls $630M vs. $1.26B, re-compressing forward EV/Revenue from 5× to 8.4×.",
+        "magnitude_12m": "HIGH execution risk. If labor/battery constraints reduce output 30–50%, revenue upside compresses 30–40%. Downside scenario probability ~20–25%."
+      }
+    },
+    {
+      "label": "Joby: FAA Stage 4 Regulatory Lead",
+      "value": "Joby at FAA Stage 4 (Type Inspection Authorization) with late 2026 Type Cert expected. Archer at 100% MOC (Means of Compliance) with Q4 2026–Q1 2027 expected. Joby 6–12 months ahead.",
+      "source_url": null,
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Joby",
+        "key_edge": "FAA Stage 4 certification head start",
+        "edge_category": "regulatory",
+        "evidence": "A4.1 Regulatory Approval Advantage table: Joby Stage 4 (TIA); Archer 100% MOC. Joby Type Cert late 2026 vs. Archer Q4 2026–Q1 2027. A4.1 notes 6–12 month gap and competitive implication: Joby can scale US ops immediately post-cert, capturing first-mover share.",
+        "magnitude_12m": "First-mover advantage worth +3–8% TSR in 2027 as Joby scales US operations ahead of Archer. Premium likely compressed post-2027 as Archer scales."
+      }
+    },
+    {
+      "label": "EHang: Profitability + Autonomous Pilotless Design",
+      "value": "EHang only profitable peer ($72.9M FY2025 revenue, positive margin). Pilotless autonomous design (EH216-S) eliminates pilot wages (~15–20% of commercial OPEX). Commercial ops launching China/Thailand 2026.",
+      "source_url": null,
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "EHang",
+        "key_edge": "Profitability and autonomous cost structure",
+        "edge_category": "tech",
+        "evidence": "A4.1 EHang metrics: FY2025 revenue $72.9M (profitable); commercial ops status autonomous EH216-S pilotless; forward EV/Revenue 8–9× (lowest among peers). Near-zero debt. A4.1 notes EHang unique among peers with positive cash generation.",
+        "magnitude_12m": "Profitability vs. pre-revenue competitors de-risks model. Pilotless design lowers OPEX by 15–20% vs. pilot-crewed (Archer, Joby). Trades at 10× discount to Joby on EV/Revenue, reflecting lower growth TAM (Asia-only). Defensible but capped."
+      }
+    },
+    {
+      "label": "Beta Technologies: Current Revenue + $4B Backlog",
+      "value": "Beta generating $35.6M TTM revenue (only peer besides EHang with revenue). $4B backlog (largest in sector). Cargo/emergency medical OEM model (UPS, Air New Zealand, United Therapeutics) de-risks demand vs. passenger air taxi.",
+      "source_url": null,
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Beta",
+        "key_edge": "Current revenue generation with large backlog",
+        "edge_category": "distribution",
+        "evidence": "A4.1 Beta metrics: TTM revenue $35.6M; backlog $4B+; customers UPS, Air New Zealand, United Therapeutics (cargo/emergency, non-passenger). IPO valuation $7.44B (Dec 2025), down to $3.38B (May 2026). Forward EV/Revenue 95× (elevated but backlog provides visibility).",
+        "magnitude_12m": "De-risks demand (cargo OEM, not consumer air taxi). But business model capped at cargo/logistics TAM. Passenger air taxi market (Archer, Joby) has 10–100× higher TAM. Beta's strength is profitability; weakness is growth ceiling."
+      }
+    },
+    {
+      "label": "Vertical Aerospace: Critical Liquidity Pressure",
+      "value": "Liquidity $121–159M (GBP 96–126M) vs. 12-month burn $227–252M (GBP 180–200M). Must raise $200M+ by Q2 2026. Cash runway 6–12 months. Mudrick Capital committed $50M new equity + $130M debt-to-equity conversion.",
+      "source_url": null,
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Vertical",
+        "key_edge": "Liquidity crisis (structural disadvantage)",
+        "edge_category": "balance_sheet",
+        "evidence": "A4.1 Capital Efficiency table: Vertical liquidity GBP 126M (~$159M), 12-month burn GBP 180–200M (~$227–252M). Runway ~2–3 months without facility draws. A4.1 notes $500M facility available, but requires equity conversion. Distressed valuation $338.7M market cap (down from $7.60 52-week high to $2.66).",
+        "magnitude_12m": "Uninvestable without capital raise in Q2 2026. If raise forced at distressed terms, equity holders face >30% dilution. Regulatory timeline (VX4 cert end-2028) provides no near-term revenue bridge. Survival risk high; recovery only if new capital converts to equity at steep discount."
+      }
+    }
+  ]
+}

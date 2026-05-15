@@ -1,0 +1,81 @@
+{
+  "stage": "A3.2",
+  "summary": "eVTOL/Urban Air Mobility sector forecast: 29.6-35.3% CAGR through 2030 (conservative range, $4.36-4.67B TAM) to 54.9% CAGR (optimistic). Archer's core opportunity: airport shuttle (32.4% CAGR, United 200-unit order), defense/military ($12.7B market, 9.5% CAGR, $142M USAF contract), and intercity segments. Archer production targets 252 units (2027), 650 units (2028), implying 5-10% market share by 2030. 12-month horizon critical gates: FAA Type Certification Basis, 400+ Wh/kg battery validation, commercial operations launch announcement.",
+  "rows": [
+    {
+      "label": "eVTOL Global Market TAM & CAGR (2025-2030)",
+      "value": "$4.36B (2030) at 29.65% CAGR; Range: $4.36-4.67B (conservative) to $28.6B (optimistic) at 35.3-54.9% CAGR",
+      "source_url": "https://www.marketsandmarkets.com/Market-Reports/evtol-aircraft-market-28054110.html",
+      "confidence": "medium-high",
+      "assumed": false,
+      "extras": {
+        "metric": "Global eVTOL Aircraft Market Revenue (USD billions) and CAGR",
+        "sensitivity": "H",
+        "rationale": "Triangulated across three independent market research firms (MarketsandMarkets, Grand View Research, Mordor Intelligence); conservative estimate (29.65% CAGR) reflects risk of FAA certification delays, battery supply constraints, and infrastructure buildout. Optimistic estimate (54.9% CAGR) assumes aggressive production scaling and regulatory acceleration. Archer's revenue and profitability scale directly with sector TAM penetration and share capture.",
+        "data_sources": [
+          "MarketsandMarkets: $4.36B by 2030 at 29.65% CAGR",
+          "Grand View Research: $4.67B by 2030 at 35.3% CAGR",
+          "Mordor Intelligence: $28.6B by 2030 at 54.9% CAGR"
+        ]
+      }
+    },
+    {
+      "label": "Passenger Transport (Airport Shuttle) Segment CAGR & TAM",
+      "value": "32.4% CAGR (2026-2030); Urban Air Mobility TAM: $4.6B (2024) → $23.5B (2030) at 31.2% CAGR",
+      "source_url": "https://www.marketsandmarkets.com/Market-Reports/evtol-aircraft-market-28054110.html",
+      "confidence": "medium-high",
+      "assumed": false,
+      "extras": {
+        "metric": "Airport Shuttle Segment Revenue (USD billions) and CAGR; Per-trip pricing",
+        "sensitivity": "VH",
+        "rationale": "Highest-growth near-term segment; directly aligns with United Airlines partnership (200-unit conditional order, operations in Chicago and NYC). Pricing ranges $75-240 per trip (20-40 mile airport route) implies $150-300M annual operations revenue potential once 50+ flights/day/hub is achieved. Per A2.3, commercial revenue launch is Archer's primary TSR driver. Fleet requirement: 930 eVTOLs for 17,434 passengers/day in single market indicates significant capacity opportunity.",
+        "pricing_per_trip": "$75-240 (20-40 mile airport route)",
+        "fleet_requirement": "930 eVTOLs for 17,434 passengers/day per market"
+      }
+    },
+    {
+      "label": "Defense/Military Market Opportunity & USAF Allocation",
+      "value": "Military segment: $12.78B (2024), 9.5% CAGR; 18% of global eVTOL market; 2,150+ units DoD allocation; Archer USAF contract: $142M (up to 6 aircraft pilot)",
+      "source_url": "https://www.marketsandmarkets.com/Market-Reports/evtol-aircraft-market-28054110.html",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "metric": "Military eVTOL Market Revenue (USD billions), DoD Unit Allocation, Archer Contract Value",
+        "sensitivity": "H",
+        "rationale": "Defense revenue is less price-sensitive and has longer contract values than commercial operations, reducing volume volatility. USAF Agility Prime program evaluated 2,150+ units for reconnaissance, logistics, border patrol, surveillance, rescue. If USAF approves follow-on orders at 5-10% of allocation (100-200 units over 2027-2030) and Archer captures 30-50% of DoD procurement, that represents 30-100 units. Archer delivered first Midnight to USAF July 2024, validating technology and use case. However, defense volume unlikely to exceed 100-150 units/year at peak, vs. 500+ units/year potential from airport shuttle.",
+        "usaf_contract_value": "$142M (pilot phase, up to 6 aircraft)",
+        "projected_follow_on": "100-200 units over 2027-2030 (if 5-10% of DoD allocation)"
+      }
+    },
+    {
+      "label": "Archer Production Capacity Targets & Market Share Projection",
+      "value": "Archer: 252 units (2027), 650 units (2028); Industry: 5,280 units by 2035; Archer implied market share: 5-10% by 2030",
+      "source_url": "https://www.fool.com/investing/2024/10/10/where-will-archer-aviation-be-in-3-years/",
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "metric": "eVTOL Production Capacity (units) and Market Share (%)",
+        "sensitivity": "M-H",
+        "rationale": "Archer guidance (252/2027, 650/2028) is contingent on FAA Type Certification by 2027-2028 (currently on track per A2.3, but subject to ~50 remaining FAA rules). Joby targets 48 units/year by 2027 (4/month). XPeng (China) 5,000-10,000 units annually at scale. If industry reaches 5,280 units by 2035 and Archer maintains 252+ units/year through 2027-2030, market share would be 5-10% (assuming parity with Joby). Risk: FAA Type Cert slip or United order delays would compress runway and reduce share assumptions. Marked ASSUMED because it depends on multiple unresolved near-term gates (FAA approval, battery validation, customer order execution).",
+        "joby_production": "4 units/month (48/year) by 2027",
+        "xpeng_production": "5,000-10,000 units annually at scale (China)",
+        "production_risk": "Any FAA Type Cert slip >6 months compresses 2027 target significantly"
+      }
+    },
+    {
+      "label": "Leisure/Tourism & Adjacent Use Cases TAM",
+      "value": "Leisure segment growth: 200%+ by 2030; Scenic flight pricing: $100-300 per person per trip (15-30 min); EHang 15,000+ passengers in 2024-2025",
+      "source_url": "https://newatlas.com/aircraft/ehang-evtol-autonomous-air-tourism/",
+      "confidence": "low",
+      "assumed": true,
+      "extras": {
+        "metric": "Leisure eVTOL Market Growth Rate and Scenic Flight Pricing",
+        "sensitivity": "L",
+        "rationale": "Leisure is not a stated priority in A2.3's near-term revenue thesis (12-month focus on USAF and United). Limited Western market data; extrapolated from EHang's China operations. However, represents hedge opportunity if USAF or United timelines slip. Archer's Midnight (4-passenger, low-noise) is suitable for scenic tours at resort destinations (Las Vegas, Hawaii, South Florida). If 5-10% of production capacity (25-65 units by 2030) is dedicated to tour operators, could yield $50-150M aircraft sales plus recurring operational revenue. Growth trajectory of 200% by 2030 suggests emerging but unproven market; confidence set to LOW due to geographic and regulatory variance.",
+        "potential_capacity_allocation": "5-10% of production (25-65 units by 2030)",
+        "revenue_potential": "$50-150M in aircraft sales + recurring operational revenue",
+        "geographic_maturity": "Proven in China; Western market nascent"
+      }
+    }
+  ]
+}

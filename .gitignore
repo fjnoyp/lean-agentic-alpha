@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+runs/
+*.egg-info/
+.DS_Store
+_legacy/
+.pytest_cache/
+Lean_Agentic_Alpha_Briefing_Pack*.pdf

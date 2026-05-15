@@ -1,0 +1,156 @@
+{
+  "stage": "A3.1",
+  "summary": "Macro base rates for May 2026–May 2027 show modestly favorable conditions for Archer: Fed rate cuts (50 bp) lower capital costs, inflation moderates (PCE -50 bp), but labor scarcity persists (wage growth 3.1–3.4%) and electricity costs rise (+8–14%), creating mixed COGS pressure. GDP growth remains modest (2.3%), making execution—not macro—the key driver of A2.3 forward outcomes.",
+  "rows": [
+    {
+      "label": "Federal Funds Rate (Policy Anchor)",
+      "value": "3.64% (May 2026) → 3.0–3.25% (May 2027); 50 bp decline",
+      "source_url": "https://www.federalreserve.gov/releases/h15/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "metric": "Fed Funds Effective Rate (%)",
+        "current_year_value": "3.64% (May 5, 2026)",
+        "next_year_value": "3.0–3.25% (projected Dec 2027, per FOMC March 2026 dot plot)",
+        "relevance_to_a23": "Capital availability gate (A2.3 Driver 1 & 3). Lower rates reduce cost of Archer's debt financing and customer capex financing. 50 bp decline modestly improves capital markets access, offsetting some refinancing pressure.",
+        "policy_implication": "Two 25 bp cuts expected in 2026, two cuts in 2027 per dot plot. Fed cites inflation moderation and stable labor market as justification.",
+        "forecast_source": "FOMC Summary of Economic Projections, March 18, 2026"
+      }
+    },
+    {
+      "label": "US PCE Inflation (Core Price Pressure)",
+      "value": "2.7% (end-2026) → 2.2% (end-2027); 50 bp decline",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260318.pdf",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "metric": "Personal Consumption Expenditures Inflation Rate (%)",
+        "current_year_value": "2.7% (projected year-end 2026, Fed March SEP)",
+        "next_year_value": "2.2% (projected year-end 2027, Fed March SEP)",
+        "relevance_to_a23": "Production cost and demand gate (A2.3 Driver 1 & 3). Lower inflation eases materials cost pressures (composites, electronics) and improves eVTOL value proposition vs. traditional aviation. Net positive for revenue launch and battery cost targets.",
+        "current_context": "Inflation 3.4% YoY as of March 2026, partly driven by geopolitical energy price spikes (Iran Strait of Hormuz conflict). Expected to moderate as Fed cuts rates.",
+        "forecast_source": "FOMC Summary of Economic Projections, March 18, 2026"
+      }
+    },
+    {
+      "label": "Labor Cost Inflation (Employment Cost Index)",
+      "value": "3.4% (March 2026, 12-month) → 3.1% (ASSUMED May 2027); modest 30 bp decline",
+      "source_url": "https://www.bls.gov/news.release/eci.nr0.htm",
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "metric": "Employment Cost Index for wages and salaries (% YoY)",
+        "current_year_value": "3.4% YoY (12-month through March 2026, BLS)",
+        "next_year_value": "3.1% (ASSUMED, based on unemployment moderating to 4.2% by end-2027 per Fed SEP)",
+        "relevance_to_a23": "Production COGS gate (A2.3 Driver 1 & 3). Aerospace sector faces acute labor shortages (56% of mfg firms report hiring difficulty for skilled trades); wage growth remains elevated. At 3.1–3.4% YoY, labor cost inflation will compress unit economics for aircraft production unless pricing increases or manufacturing efficiency improves 150–170 bp annually.",
+        "structural_constraint": "Aerospace workforce 29% above age 55; retirements accelerate. Aerospace sector needs 3.8M jobs by 2033. Tight labor market (unemployment 4.2% end-2027 vs. 4.0% neutral) means shortages persist.",
+        "forecast_source": "BLS ECI current; forward assumption based on Fed unemployment projection (March 2026 SEP)"
+      }
+    },
+    {
+      "label": "US GDP Growth (Demand Foundation)",
+      "value": "2.4% (2026 Fed forecast) → 2.3% (2027 Fed forecast); flat with slight deceleration",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260318.pdf",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "metric": "Real GDP Growth Rate (% annual)",
+        "current_year_value": "2.4% (2026, Fed March SEP median forecast)",
+        "next_year_value": "2.3% (2027, Fed March SEP median forecast)",
+        "relevance_to_a23": "Revenue demand gate (A2.3 Driver 1). Modest 2.3% growth supports baseline corporate capex and airline spending but does not accelerate demand for premium transportation. Revenue launch depends on execution (United/USAF operational readiness) rather than macro acceleration.",
+        "range_uncertainty": "Goldman Sachs projects 2.5% (higher); Deloitte projects 0.4% contraction 2027 (lower tail risk). Consensus mid-point 2.3% is durable against near-term shocks.",
+        "forecast_source": "FOMC Summary of Economic Projections, March 18, 2026; cross-triangulated with Goldman Sachs, Deloitte"
+      }
+    },
+    {
+      "label": "10-Year Treasury Yield (Long-Term Capital Cost)",
+      "value": "4.37% (May 8, 2026) → 4.0% (May 2027); 37 bp decline",
+      "source_url": "https://www.federalreserve.gov/releases/h15/",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "metric": "10-Year U.S. Treasury Constant Maturity Yield (%)",
+        "current_year_value": "4.37% (May 8, 2026, Federal Reserve H.15)",
+        "next_year_value": "4.0% (projected by end-2026/early-2027, Long Forecast; further declines to 3.98% by Sept 2027)",
+        "relevance_to_a23": "Non-dilutive capital cost gate (A2.3 Driver 3). Lower 10-year yields reduce cost of Archer's long-term debt, making debt financing more attractive vs. equity raises. A 37 bp decline lowers 10-year debt service by ~$3.7M per $1B borrowed annually. Net positive for reducing dilution pressure.",
+        "market_dynamics": "Decline driven by expected Fed rate cuts (50 bp over 12 months) and moderating inflation expectations. Subject to repricing if macro surprises emerge.",
+        "forecast_source": "Long Forecast, TradingEconomics consensus"
+      }
+    },
+    {
+      "label": "High-Yield Credit Spreads (Capital Market Access)",
+      "value": "279 bp (May 2026) → 300–350 bp (May 2027); +21–71 bp widening",
+      "source_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "metric": "ICE BofA US High Yield Index Option-Adjusted Spread (bp)",
+        "current_year_value": "279 bp (May 2026, FRED BAMLH0A0HYM2)",
+        "next_year_value": "300–350 bp (late 2026/early 2027, consensus forecast; mid-point assumed 325 bp)",
+        "relevance_to_a23": "Capital availability refinancing risk (A2.3 Driver 3). Spread widening (+45 bp mid-point) increases cost of debt for non-dilutive capital raises. However, widening is offset by Fed rate cuts (50 bp), leaving net cost of capital roughly flat or slightly lower. Refinancing wall looming (>$700B due 2027–2029) creates pressure, but Archer's strong liquidity (~$2B) insulates it from near-term stress.",
+        "market_condition": "Spreads currently at 25-year tights, indicating strong risk appetite and low default expectations. Widening reflects macro uncertainty and supply pressures (M&A, AI infrastructure financing), not distress.",
+        "forecast_source": "LPL Research, PitchBook, JP Morgan consensus (2026–2027 outlook)"
+      }
+    },
+    {
+      "label": "Brent Crude Oil Price (eVTOL Value Proposition)",
+      "value": "$81–115/bbl (Q1–Q2 2026) → $76/bbl avg (2027); 5–39 bp decline",
+      "source_url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "metric": "Brent Crude Oil Price (USD/barrel)",
+        "current_year_value": "$81/bbl avg Q1 2026, peaks $115/bbl Q2 2026 (Iran Strait of Hormuz conflict), declines to $88/bbl avg Q4 2026 (EIA April 2026 STEO)",
+        "next_year_value": "$76/bbl avg 2027, declining toward $64/bbl by end-2027 (EIA long-term outlook)",
+        "relevance_to_a23": "Revenue demand and unit economics gate (A2.3 Driver 1). Lower oil prices narrow the fuel cost advantage of electric aviation relative to traditional helicopter/jet fuel, but do not eliminate it. eVTOL electricity cost (~$0.05–0.08/mile) remains well below Jet-A equivalent (~$0.12–0.15/mile) even at $76/bbl oil. Declining prices moderately reduce customer willingness-to-pay for premium eVTOL service, but baseline value proposition holds.",
+        "geopolitical_risk": "Forecast depends on resolution of Iran Strait of Hormuz conflict and OPEC production decisions. Spike to $115/bbl in Q2 2026 is transitory; baseline assumes eventual moderation.",
+        "forecast_source": "EIA Short-Term Energy Outlook, April 2026"
+      }
+    },
+    {
+      "label": "Wholesale Electricity Prices (Battery Manufacturing Cost)",
+      "value": "$51/MWh (2026 forecast) → $55–58/MWh (ASSUMED 2027); +8–14% increase",
+      "source_url": "https://www.eia.gov/outlooks/steo/",
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "metric": "Regional Wholesale Electricity Price, Load-Weighted Average (USD/MWh)",
+        "current_year_value": "$51/MWh (2026 forecast, EIA; represents 8.5% increase from 2025 baseline $47/MWh)",
+        "next_year_value": "$55–58/MWh (ASSUMED 2027, based on continued 8–14% annual growth driven by data center AI demand, grid decarbonization, renewable capacity additions)",
+        "relevance_to_a23": "Battery manufacturing cost gate (A2.3 Driver 3). Rising electricity costs increase COGS for solid-state battery producers. [A2.3 identifies 400 Wh/kg delivery as HIGH sensitivity, non-linear gating function]. Higher electricity costs may delay cost targets or require higher battery prices, affecting eVTOL unit economics.",
+        "demand_drivers": "Data center electricity demand growing fastest (AI infrastructure), driving wholesale prices higher. Renewable energy additions (21% solar growth 2026–2027) require transmission infrastructure investment, raising marginal generation costs.",
+        "forecast_source": "EIA Short-Term Energy Outlook, April 2026; extrapolation based on historical growth trends"
+      }
+    },
+    {
+      "label": "Venture Capital Funding Market (Capital Availability for eVTOL)",
+      "value": "$375B (2026 US forecast) → $400B+ (ASSUMED 2027); modest growth but concentrated in AI",
+      "source_url": "https://news.crunchbase.com/venture/crunchbase-predicts-vcs-expect-more-funding-ai-ipo-ma-2026-forecast/",
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "metric": "U.S. Venture Capital Funding (USD billions, annual)",
+        "current_year_value": "$375B (2026 forecast, Crunchbase; represents recovery from 2024–2025 downturn)",
+        "next_year_value": "$400B+ (ASSUMED 2027, based on 6–7% growth trajectory)",
+        "relevance_to_a23": "Capital availability gate (A2.3 Driver 3). VC market recovery supports growth-stage companies like Archer, but capital is concentrating in AI-focused firms. eVTOL benefits from White House pilot program support and Archer's already-strong $2B liquidity position, reducing near-term dilution risk. If VC capital dries up beyond 2027, future raises could be more dilutive.",
+        "sector_dynamics": "AI companies attracting 85% of global VC funding, 53% of deals. Non-AI sectors (including aerospace/eVTOL) face tighter capital, but strategic partnerships (Stellantis manufacturing, Boeing investment) provide alternative funding channels.",
+        "forecast_source": "Crunchbase Predictions 2026–2027; Wellington Management VC Outlook"
+      }
+    },
+    {
+      "label": "US Unemployment Rate (Labor Market Tightness & Wage Inflation)",
+      "value": "4.4–4.5% (Q1 2026) → 4.2% (end-2027); modest loosening but remains tight",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260318.pdf",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "metric": "Civilian Unemployment Rate (%)",
+        "current_year_value": "4.4–4.5% (Q1 2026, Fed March SEP)",
+        "next_year_value": "4.2% (end-2027, Fed March SEP)",
+        "relevance_to_a23": "Labor supply and wage inflation gate (A2.3 Driver 1 & 3). Unemployment remains above Fed's estimated neutral rate (4.0%), indicating tight labor market persists. Aerospace sector faces structural shortages (56% of mfg firms struggle to hire skilled workers; 29% of workforce above age 55). Modest unemployment decline (20 bp) unlikely to resolve aerospace-specific labor scarcity. Implication: wage growth stays elevated (3.1–3.4% YoY), compressing unit COGS for aircraft production unless manufacturing efficiency improves or pricing increases.",
+        "structural_constraint": "Aerospace needs 3.8M jobs by 2033; current shortages in machinists, CNC operators, welders show no sign of abating. Production ramp-up (33 aircraft 2026 → 465 by 2030 per Archer guidance) will compete fiercely for skilled labor.",
+        "forecast_source": "FOMC Summary of Economic Projections, March 18, 2026"
+      }
+    }
+  ]
+}

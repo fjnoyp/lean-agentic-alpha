@@ -1,0 +1,640 @@
+{
+  "stage": "A4.1",
+  "summary": "Peer metrics comparison for Archer Aviation's eVTOL competitors as of May 2026. Joby leads in market cap ($10.32B) and FAA advancement (Stage 4); Archer follows ($4.9B market cap, 100% MOC approved). Vertical Aerospace faces distress ($338.7M market cap, 12-month cash runway). EHang is only profitable peer ($748M market cap, 11.7% revenue growth). Forward EV/Revenue multiples range 8x (EHang) to 95x (Beta), indicating valuation highly dependent on near-term revenue recognition and regulatory approval timing. 12-month outlook differentiates on Dubai/Abu Dhabi launch success, Type Certification timing, and capital raise requirements.",
+  "rows": [
+    {
+      "label": "Joby Aviation — Market Cap (May 8, 2026)",
+      "value": "$10.32B",
+      "source_url": "https://stockstotrade.com/news/joby-aviation-inc-joby-news-2026_05_07/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "Market Capitalization",
+        "metric_value": "$10.32B",
+        "period": "May 8, 2026"
+      }
+    },
+    {
+      "label": "Joby Aviation — Enterprise Value (May 2026)",
+      "value": "$8.33B",
+      "source_url": "https://www.trefis.com/stock/joby/articles/598665/how-joby-stock-is-approaching-a-valuation-catalyst/2026-05-07",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "Enterprise Value",
+        "metric_value": "$8.33B",
+        "period": "May 2026"
+      }
+    },
+    {
+      "label": "Joby Aviation — Q1 2026 Revenue",
+      "value": "$24.2M",
+      "source_url": "https://www.stocktitan.net/sec-filings/JOBY/8-k-joby-aviation-inc-reports-material-event-92fce79b5947.html",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "Q1 2026 Revenue",
+        "metric_value": "$24.2M",
+        "period": "Q1 2026",
+        "note": "Includes Blade helicopter/seaplane acquisition; eVTOL ops revenue minimal"
+      }
+    },
+    {
+      "label": "Joby Aviation — FY 2026 Revenue Guidance",
+      "value": "$105–150M",
+      "source_url": "https://seekingalpha.com/article/4876138-joby-aviation-monumental-2026-ahead",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "FY 2026 Revenue Guidance",
+        "metric_value": "$105–150M",
+        "period": "FY 2026",
+        "note": "Blade revenue dominates; eVTOL ops begin Dubai Q2-Q3 2026"
+      }
+    },
+    {
+      "label": "Joby Aviation — Forward EV/Revenue (2026 Guidance)",
+      "value": "55–79x",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "Forward EV/Revenue Multiple (2026)",
+        "metric_value": "55–79x",
+        "period": "FY 2026",
+        "calculation_notes": "EV $8.33B ÷ Revenue $105–150M = 55–79x"
+      }
+    },
+    {
+      "label": "Joby Aviation — Cash Position (Q1 2026)",
+      "value": "$2.47B",
+      "source_url": "https://www.stocktitan.net/sec-filings/JOBY/10-q-joby-aviation-inc-quarterly-earnings-report-a87eba3fc448.html",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "Cash & Investments",
+        "metric_value": "$2.47B",
+        "period": "Q1 2026"
+      }
+    },
+    {
+      "label": "Joby Aviation — Quarterly Cash Burn (Q1 2026)",
+      "value": "$147M",
+      "source_url": "https://www.stocktitan.net/sec-filings/JOBY/8-k-joby-aviation-inc-reports-material-event-92fce79b5947.html",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "Quarterly Cash Burn",
+        "metric_value": "$147M",
+        "period": "Q1 2026",
+        "runway_months": "17–18 months without new raise"
+      }
+    },
+    {
+      "label": "Joby Aviation — Capital Raised (Recent)",
+      "value": "$1.2B (Jan 2026)",
+      "source_url": "https://lowaltitudeeconomy.aero/evtol-news-and-electric-aircraft-news/evtol/joby-1-2-billion-raise-market-reaction-evtol-investment-analysis",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "Capital Raised (12-Month Period)",
+        "metric_value": "$1.2B",
+        "period": "January 2026",
+        "breakdown": "$600M equity @ $11.35/share; $600M convertible notes"
+      }
+    },
+    {
+      "label": "Joby Aviation — FAA Regulatory Status (May 2026)",
+      "value": "Stage 4 (TIA)",
+      "source_url": "https://www.aircraftinsider.com/joby-aviation-clears-faa-stage-4-certification-first-ever-commercial-evtol-certificate-now-within-reach/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "FAA Certification Stage",
+        "metric_value": "Stage 4 (Type Inspection Authorization)",
+        "period": "May 2026",
+        "next_milestone": "Final Type Cert expected late 2026"
+      }
+    },
+    {
+      "label": "Joby Aviation — Dubai Commercial Launch Timeline",
+      "value": "Q2–Q3 2026",
+      "source_url": "https://gulfnews.com/business/aviation/archer-inches-closer-to-flying-air-taxis-in-abu-dhabi-with-new-uae-certification-1.500533561",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "First Commercial Revenue Event",
+        "metric_value": "Dubai air taxi operations",
+        "period": "Q2–Q3 2026",
+        "note": "Vertiport ~60% complete; under UAE GCAA expedited pathway"
+      }
+    },
+    {
+      "label": "Joby Aviation — Production Capacity Target (2027)",
+      "value": "4 aircraft/month (~48/year)",
+      "source_url": "https://www.compositesworld.com/news/joby-plans-to-double-u-s-evtol-manufacturing-capacity",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Joby Aviation (JOBY)",
+        "metric_name": "2027 Production Capacity Target",
+        "metric_value": "48 aircraft/year",
+        "period": "2027 Guidance",
+        "note": "Toyota partnership providing manufacturing expertise; doubling from current capacity"
+      }
+    },
+    {
+      "label": "Archer Aviation — Market Cap (May 9, 2026)",
+      "value": "$4.9B",
+      "source_url": "https://finance.yahoo.com/quote/ACHR/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "Market Capitalization",
+        "metric_value": "$4.9B",
+        "period": "May 9, 2026"
+      }
+    },
+    {
+      "label": "Archer Aviation — Enterprise Value (May 2026)",
+      "value": "$5.32B",
+      "source_url": "https://www.gurufocus.com/term/enterprise-value-to-revenue/ACHR",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "Enterprise Value",
+        "metric_value": "$5.32B",
+        "period": "May 2026"
+      }
+    },
+    {
+      "label": "Archer Aviation — Q4 2025 Revenue (First Ever)",
+      "value": "$0.3M",
+      "source_url": "https://investors.archer.com/financials/quarterly-results/default.aspx",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "Q4 2025 Revenue",
+        "metric_value": "$0.3M",
+        "period": "Q4 2025",
+        "note": "Milestone: first-ever revenue recognition"
+      }
+    },
+    {
+      "label": "Archer Aviation — FY 2026 Revenue Forecast (Analyst)",
+      "value": "$62M",
+      "source_url": "https://www.tipranks.com/news/achr-earnings-preview-archers-2026-launch-timeline-faces-a-key-test",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "FY 2026 Revenue Forecast",
+        "metric_value": "$62M",
+        "period": "FY 2026",
+        "driver": "Abu Dhabi deliveries + eIPP pilot operations"
+      }
+    },
+    {
+      "label": "Archer Aviation — FY 2027 Revenue Forecast (Production Ramp Implied)",
+      "value": "$1.0B–1.3B",
+      "source_url": null,
+      "confidence": "low",
+      "assumed": true,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "FY 2027 Revenue Forecast (Derived)",
+        "metric_value": "$1.0B–1.3B",
+        "period": "FY 2027",
+        "calculation_notes": "252 aircraft target × $5M average selling price; depends on production execution"
+      }
+    },
+    {
+      "label": "Archer Aviation — Forward EV/Revenue (2026 Guidance)",
+      "value": "86x",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "Forward EV/Revenue Multiple (2026)",
+        "metric_value": "86x",
+        "period": "FY 2026",
+        "calculation_notes": "EV $5.32B ÷ Revenue $62M = 86x"
+      }
+    },
+    {
+      "label": "Archer Aviation — Forward EV/Revenue (2027 Base Case ASSUMED)",
+      "value": "5.3x",
+      "source_url": null,
+      "confidence": "low",
+      "assumed": true,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "Forward EV/Revenue Multiple (2027 Base Case)",
+        "metric_value": "5.3x",
+        "period": "FY 2027",
+        "calculation_notes": "EV $5.32B ÷ Revenue $1.0B = 5.3x; highly dependent on 252 aircraft delivery"
+      }
+    },
+    {
+      "label": "Archer Aviation — Cash Position (Late 2025)",
+      "value": "$2.0B",
+      "source_url": "https://www.alphaspread.com/market-news/mergers-acquisitions/archer-aviation-acquires-la-area-airport-and-raises-650-million-through-share-sale",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "Cash & Liquidity",
+        "metric_value": "$2.0B",
+        "period": "November 2025",
+        "note": "Post $650M raise"
+      }
+    },
+    {
+      "label": "Archer Aviation — Capital Raised (12-Month Period)",
+      "value": "$1.5B",
+      "source_url": null,
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "Capital Raised (12-Month)",
+        "metric_value": "$1.5B",
+        "period": "June 2025 – November 2025",
+        "breakdown": "$850M (June 2025) + $650M (November 2025)"
+      }
+    },
+    {
+      "label": "Archer Aviation — FAA Regulatory Status (May 2026)",
+      "value": "100% Means of Compliance (MOC) Approved",
+      "source_url": "https://investors.archer.com/financials/quarterly-results/default.aspx",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "FAA Certification Progress",
+        "metric_value": "100% MOC Approved",
+        "period": "May 2026",
+        "next_milestone": "Type Certification expected late 2026 or Q1 2027"
+      }
+    },
+    {
+      "label": "Archer Aviation — Abu Dhabi Commercial Launch",
+      "value": "Q3 2026",
+      "source_url": "https://www.travelsdubai.com/08-May-2026/uae-regulator-clears-major-milestone-archer-s-midnight-air-taxi-launch",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "First Commercial Revenue Event (Int'l)",
+        "metric_value": "Abu Dhabi air taxi operations (ADA partner)",
+        "period": "Q3 2026",
+        "note": "RTC (Restricted Type Certificate) pathway; UAE GCAA approval"
+      }
+    },
+    {
+      "label": "Archer Aviation — White House eIPP (US Pilot) Launch",
+      "value": "H2 2026",
+      "source_url": "https://investors.archer.com/news/news-details/2026/Archers-US-Air-Taxi-Operations-Take-Major-Step-Forward-as-Florida-New-York-and-Texas-Selected-for-White-House-Pilot-Program/default.aspx",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "First Commercial Revenue Event (US Domestic)",
+        "metric_value": "eIPP revenue operations (TX, FL, NY)",
+        "period": "H2 2026",
+        "note": "Pre-Type Cert commercial pathway; enabling early US revenue"
+      }
+    },
+    {
+      "label": "Archer Aviation — Production Capacity Target (2027)",
+      "value": "252 aircraft/year",
+      "source_url": "https://www.flyingmag.com/archer-aviation-sets-production-goal-of-2000-aircraft-annually",
+      "confidence": "low",
+      "assumed": true,
+      "extras": {
+        "company": "Archer Aviation (ACHR)",
+        "metric_name": "2027 Production Capacity Target",
+        "metric_value": "252 aircraft/year",
+        "period": "2027 Guidance",
+        "note": "Aggressive ramp from 6 aircraft (Aug 2025); depends on labor, batteries, FAA approvals"
+      }
+    },
+    {
+      "label": "Vertical Aerospace — Market Cap (May 8, 2026)",
+      "value": "$338.7M",
+      "source_url": "https://finance.yahoo.com/quote/EVTL/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Vertical Aerospace (EVTL)",
+        "metric_name": "Market Capitalization",
+        "metric_value": "$338.7M",
+        "period": "May 8, 2026"
+      }
+    },
+    {
+      "label": "Vertical Aerospace — Cash Position (Q1 2026)",
+      "value": "GBP 96M (~$121M)",
+      "source_url": "https://www.businesswire.com/news/home/20260506614110/en/Vertical-Aerospace-Provides-First-Quarter-Update-Achieves-Key-Execution-Milestones-and-Advances-Toward-Certification",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Vertical Aerospace (EVTL)",
+        "metric_name": "Cash & Cash Equivalents",
+        "metric_value": "GBP 96M (~$121M)",
+        "period": "Q1 2026"
+      }
+    },
+    {
+      "label": "Vertical Aerospace — Total Liquidity (Q1 2026)",
+      "value": "GBP 126M (~$159M)",
+      "source_url": "https://vertical-aerospace.com/wp-content/uploads/2026/05/20260605-Q1-Earnings-Call-Press-Release_v1.pdf",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Vertical Aerospace (EVTL)",
+        "metric_name": "Total Available Liquidity",
+        "metric_value": "GBP 126M (~$159M)",
+        "period": "Q1 2026",
+        "note": "Includes tax relief grants + facility draws"
+      }
+    },
+    {
+      "label": "Vertical Aerospace — 12-Month Cash Burn (Projected)",
+      "value": "GBP 180–200M (~$227–252M)",
+      "source_url": "https://www.urbanairmobilitynews.com/air-taxis/vertical-aerospace-reports-q1-2026-results-increasing-liquidity-and-transition-flight-progress/",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Vertical Aerospace (EVTL)",
+        "metric_name": "12-Month Cash Burn Guidance",
+        "metric_value": "GBP 180–200M",
+        "period": "FY 2026",
+        "runway_months": "~12 months (requires additional capital raise by Q2–Q3 2026)"
+      }
+    },
+    {
+      "label": "Vertical Aerospace — Capital Raised (Recent)",
+      "value": "Up to USD 850M facility",
+      "source_url": "https://vertical-aerospace.com/wp-content/uploads/2026/05/20260605-Q1-Earnings-Call-Press-Release_v1.pdf",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Vertical Aerospace (EVTL)",
+        "metric_name": "Capital Facility (March 2026)",
+        "metric_value": "USD 850M",
+        "period": "March 2026",
+        "note": "GBP 50M equity raised + GBP 30M drawn; $130M debt-to-equity conversion pending"
+      }
+    },
+    {
+      "label": "Vertical Aerospace — FAA/Regulatory Status",
+      "value": "Early certification stage; VX4 cert targeted end-2028",
+      "source_url": "https://www.flightglobal.com/aerospace/vertical-delays-vx4-certification-until-2026-and-predicts-industry-wide-timeline-correction/153141.article",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Vertical Aerospace (EVTL)",
+        "metric_name": "FAA Certification Timeline",
+        "metric_value": "VX4 FAA Type Cert targeted end-2028",
+        "period": "May 2026",
+        "note": "Delayed from earlier targets; 20+ months behind Joby; Honeywell partnership ongoing"
+      }
+    },
+    {
+      "label": "Beta Technologies — Market Cap (March 2026)",
+      "value": "$3.38B",
+      "source_url": "https://stockanalysis.com/stocks/beta/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Beta Technologies (BETA)",
+        "metric_name": "Market Capitalization",
+        "metric_value": "$3.38B",
+        "period": "March 2026",
+        "note": "Declined from IPO valuation of $7.44B (late 2025); down ~54%"
+      }
+    },
+    {
+      "label": "Beta Technologies — Trailing 12-Month Revenue (Q1 2026)",
+      "value": "$35.6M",
+      "source_url": "https://stockanalysis.com/stocks/beta/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Beta Technologies (BETA)",
+        "metric_name": "TTM Revenue",
+        "metric_value": "$35.6M",
+        "period": "Q1 2026",
+        "note": "152% YoY growth (2025)"
+      }
+    },
+    {
+      "label": "Beta Technologies — Forward EV/Revenue (2026 TTM)",
+      "value": "95x",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "company": "Beta Technologies (BETA)",
+        "metric_name": "EV/Revenue Multiple (2026)",
+        "metric_value": "95x",
+        "period": "FY 2026",
+        "calculation_notes": "$3.38B market cap ÷ $35.6M TTM = 95x; highest multiple among peers"
+      }
+    },
+    {
+      "label": "Beta Technologies — Backlog",
+      "value": "$4B+",
+      "source_url": "https://robbreport.com/motors/aviation/beta-evtol-electric-aircraft-ipo-boost-1237348789/",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Beta Technologies (BETA)",
+        "metric_name": "Order Backlog",
+        "metric_value": "$4B+",
+        "period": "2025 Guidance",
+        "note": "Customers: UPS, United Therapeutics, Air New Zealand (cargo OEM model)"
+      }
+    },
+    {
+      "label": "Beta Technologies — Cash Position (End 2025)",
+      "value": "$1.7B",
+      "source_url": "https://stockanalysis.com/stocks/beta/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Beta Technologies (BETA)",
+        "metric_name": "Cash & Equivalents",
+        "metric_value": "$1.7B",
+        "period": "December 2025"
+      }
+    },
+    {
+      "label": "Beta Technologies — FAA Certification Status",
+      "value": "Not yet initiated; years away",
+      "source_url": "https://robbreport.com/motors/aviation/beta-evtol-electric-aircraft-ipo-boost-1237348789/",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Beta Technologies (BETA)",
+        "metric_name": "FAA Certification Timeline",
+        "metric_value": "Years away",
+        "period": "May 2026",
+        "note": "Cargo OEM model; less dependent on FAA passenger certification"
+      }
+    },
+    {
+      "label": "EHang Holdings — Market Cap (May 7, 2026)",
+      "value": "$748M",
+      "source_url": "https://stockanalysis.com/stocks/eh/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "EHang Holdings (EH)",
+        "metric_name": "Market Capitalization",
+        "metric_value": "$748M",
+        "period": "May 7, 2026"
+      }
+    },
+    {
+      "label": "EHang Holdings — FY 2025 Revenue",
+      "value": "$72.9M (CNY 509.5M)",
+      "source_url": "https://stockanalysis.com/stocks/eh/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "EHang Holdings (EH)",
+        "metric_name": "FY 2025 Revenue",
+        "metric_value": "$72.9M",
+        "period": "FY 2025",
+        "note": "11.7% YoY growth; pilotless autonomous eVTOL (EH216-S)"
+      }
+    },
+    {
+      "label": "EHang Holdings — FY 2026 Revenue Guidance",
+      "value": "CNY 600M (~$85–90M ASSUMED)",
+      "source_url": "https://stockanalysis.com/stocks/eh/",
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "company": "EHang Holdings (EH)",
+        "metric_name": "FY 2026 Revenue Guidance",
+        "metric_value": "CNY 600M",
+        "period": "FY 2026",
+        "note": "Modest guidance; Asia-focused growth"
+      }
+    },
+    {
+      "label": "EHang Holdings — Forward EV/Revenue (2026 Guidance)",
+      "value": "8.3–9x",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "company": "EHang Holdings (EH)",
+        "metric_name": "Forward EV/Revenue Multiple (2026)",
+        "metric_value": "8.3–9x",
+        "period": "FY 2026",
+        "calculation_notes": "$748M market cap ÷ $85M est. revenue = 8.8x; lowest multiple among peers (reflects profitability)"
+      }
+    },
+    {
+      "label": "EHang Holdings — Profit Status",
+      "value": "Profitable operations",
+      "source_url": "https://stockanalysis.com/stocks/eh/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "EHang Holdings (EH)",
+        "metric_name": "Profitability Status",
+        "metric_value": "EBITDA positive",
+        "period": "FY 2025–2026",
+        "note": "Only profitable peer; pilotless design eliminates pilot cost structure"
+      }
+    },
+    {
+      "label": "EHang Holdings — Commercial Operations Status",
+      "value": "Launching China & Thailand 2026",
+      "source_url": "https://stockanalysis.com/stocks/eh/",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "EHang Holdings (EH)",
+        "metric_name": "Commercial Operations Timeline",
+        "metric_value": "EH216-S pilotless operations",
+        "period": "2026",
+        "note": "China operations began March 2026; SE Asia expansion ongoing"
+      }
+    },
+    {
+      "label": "Lilium — Market Cap (April 2026)",
+      "value": "$32.89M",
+      "source_url": "https://www.marketsandmarkets.com/Market-Reports/evtol-aircraft-market-28054110.html",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Lilium (LILM)",
+        "metric_name": "Market Capitalization",
+        "metric_value": "$32.89M",
+        "period": "April 2026"
+      }
+    },
+    {
+      "label": "Lilium — Corporate Status",
+      "value": "Asset liquidation / reconstitution",
+      "source_url": "https://evtol.news/news/evtol-leaders-separate-from-the-pack",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Lilium (LILM)",
+        "metric_name": "Corporate Status",
+        "metric_value": "In liquidation; seeking recapitalization",
+        "period": "May 2026",
+        "note": "Filed 'Selbstverwaltung' (self-administration) late 2025; reconstituted as 'Lilium Aerospace' under new investor consortium (€200M target)"
+      }
+    },
+    {
+      "label": "Lilium — Prior Peak Valuation (2021 SPAC Merger)",
+      "value": "$3.2B",
+      "source_url": "https://stockanalysis.com/stocks/lilm/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "company": "Lilium (LILM)",
+        "metric_name": "Historical Market Cap (Peak)",
+        "metric_value": "$3.2B",
+        "period": "2021 (SPAC merger)",
+        "note": "Down 99% from peak; illustrates execution risk in eVTOL sector"
+      }
+    },
+    {
+      "label": "Lilium — FAA Regulatory Status",
+      "value": "Far behind competitors",
+      "source_url": "https://evtol.news/news/evtol-leaders-separate-from-the-pack",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "company": "Lilium (LILM)",
+        "metric_name": "FAA Certification Status",
+        "metric_value": "Early/delayed stage",
+        "period": "May 2026",
+        "note": "No near-term certification expected; operations suspended"
+      }
+    }
+  ]
+}

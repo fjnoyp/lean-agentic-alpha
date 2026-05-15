@@ -1,0 +1,158 @@
+:root {
+  --serif: "Charter", "Iowan Old Style", "Palatino", "Georgia", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", "Roboto", sans-serif;
+  --mono: ui-monospace, "SF Mono", "Menlo", "Consolas", monospace;
+  --bg: #fafaf7;
+  --bg-side: #f3f1ea;
+  --fg: #1a1a1a;
+  --muted: #666;
+  --rule: #d8d4c8;
+  --accent: #1d4ed8;
+  --accent-soft: #e0e7ff;
+  --warn: #b45309;
+  --warn-soft: #fef3c7;
+  --ok: #166534;
+  --ok-soft: #dcfce7;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--fg);
+  background: var(--bg);
+  display: grid;
+  grid-template-columns: 260px 1fr;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+code { font-family: var(--mono); font-size: 0.92em; background: rgba(0,0,0,0.04); padding: 0.05em 0.3em; border-radius: 3px; }
+pre code { padding: 0; background: none; }
+
+/* sidebar */
+.sidebar {
+  background: var(--bg-side);
+  border-right: 1px solid var(--rule);
+  padding: 24px 18px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+.brand { margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--rule); }
+.brand-name { font-family: var(--serif); font-size: 1.05rem; font-weight: 600; }
+.brand-asset { font-family: var(--serif); font-size: 1.4rem; font-weight: 700; margin-top: 4px; }
+.brand-meta { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
+.brand-meta code { font-size: 0.82em; }
+
+ul.nav { list-style: none; padding: 0; margin: 0; }
+.nav-item { padding: 4px 0; }
+.nav-item a {
+  display: block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.92rem;
+  color: var(--fg);
+}
+.nav-item.active a, .nav-item a:hover { background: var(--accent-soft); color: var(--accent); }
+.nav-section {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 18px 8px 6px;
+  font-weight: 600;
+}
+
+/* main content */
+.content {
+  padding: 40px 56px 80px;
+  max-width: 880px;
+}
+.page-head { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--rule); }
+.page-title { font-family: var(--serif); font-size: 2rem; font-weight: 700; margin: 0 0 12px; line-height: 1.2; }
+.page-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 0.85rem; }
+
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 500;
+}
+.badge-ok       { background: var(--ok-soft);     color: var(--ok); }
+.badge-warn     { background: var(--warn-soft);   color: var(--warn); }
+.badge-muted    { background: rgba(0,0,0,0.05);   color: var(--muted); }
+.badge-cited    { background: var(--ok-soft);     color: var(--ok); }
+.badge-assumed  { background: var(--warn-soft);   color: var(--warn); }
+
+.raw-link {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-left: auto;
+}
+
+/* article body */
+.markdown h1, .markdown h2, .markdown h3, .markdown h4 {
+  font-family: var(--serif);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 1.6em;
+}
+.markdown h2 { font-size: 1.45rem; padding-bottom: 4px; border-bottom: 1px solid var(--rule); }
+.markdown h3 { font-size: 1.18rem; }
+.markdown h4 { font-size: 1.02rem; }
+.markdown p, .markdown li { font-size: 1rem; }
+
+.markdown table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+  font-size: 0.93rem;
+}
+.markdown th, .markdown td {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+.markdown th { background: var(--bg-side); font-weight: 600; }
+.markdown td:has(+ td:first-of-type) { font-family: var(--mono); }
+
+.markdown blockquote {
+  border-left: 3px solid var(--rule);
+  padding-left: 12px;
+  margin-left: 0;
+  color: var(--muted);
+}
+
+.markdown pre {
+  background: #f5f3ec;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 12px 16px;
+  overflow-x: auto;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.page-foot {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+/* responsive: stack sidebar on top on narrow screens */
+@media (max-width: 760px) {
+  body { grid-template-columns: 1fr; }
+  .sidebar { position: relative; height: auto; }
+  .content { padding: 24px 18px 60px; }
+}

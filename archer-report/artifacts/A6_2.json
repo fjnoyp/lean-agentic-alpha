@@ -1,0 +1,137 @@
+{
+  "stage": "A6.2",
+  "summary": "At recommended 1% weight, ACHR contributes -44.3 bp to portfolio return, increases volatility by 261 bp, and accounts for only 1.55% of total portfolio risk—a highly inefficient risk-return tradeoff that destroys 27% of portfolio Sharpe ratio. Recommendation: AVOID unless holding for explicit thematic conviction on simultaneous execution of Abu Dhabi launch, FAA Type Cert, and battery confirmation (15% combined probability).",
+  "recommendation": "AVOID or minimal 0.5-1.0% tactical satellite only",
+  "rows": [
+    {
+      "label": "Incremental Return Contribution (1% weight)",
+      "value": "-0.443%",
+      "source_url": "A6_1.md",
+      "confidence": "high",
+      "assumed": true,
+      "extras": {
+        "metric": "incremental_return_pct",
+        "value_pct": -0.443,
+        "position_weight_pct": 1.0,
+        "achr_expected_return_pct": -44.3,
+        "baseline_portfolio_return_pct": 7.0,
+        "portfolio_return_with_achr_pct": 6.487,
+        "return_drag_bp": -44.3,
+        "interpretation": "1% position adds -44.3 bp return drag to portfolio; equivalent to purchasing a bond yielding 3.06% (44.3 bp below 3.5% risk-free rate). Position reduces expected portfolio return from 7.0% to 6.487%, a 51.3 bp net loss to baseline 100% S&P allocation.",
+        "source_calculation": "weight × ACHR_expected_return = 1.0% × (-44.3%) = -0.443%",
+        "source_reference": "A6_1.md Step 2 Scenario B portfolio return calculation; A5_1.md probability-weighted expected return (-44.3%) from 15% bull (+33.1%) + 60% base (-49.7%) + 25% bear (-81.8%)"
+      }
+    },
+    {
+      "label": "Incremental Volatility (1% weight)",
+      "value": "+2.61%",
+      "source_url": "A6_1.md",
+      "confidence": "high",
+      "assumed": true,
+      "extras": {
+        "metric": "incremental_vol_pct",
+        "value_pct": 2.61,
+        "incremental_vol_bp": 261,
+        "baseline_portfolio_vol_pct": 15.0,
+        "portfolio_vol_with_achr_pct": 17.61,
+        "relative_vol_increase_pct": 17.4,
+        "achr_standalone_sigma_pct": 60.0,
+        "correlation_with_portfolio": 0.5,
+        "beta_vs_portfolio": 1.4,
+        "interpretation": "Portfolio volatility increases 261 bp (from 15.0% to 17.61%), a 17.4% relative increase in risk. This amplification reflects ACHR's 60% standalone volatility (4x baseline) combined with 0.50 correlation with S&P 500. Position creates outsized volatility footprint relative to its weight: 1% weight drives 2.61% volatility increase due to high standalone risk and cross-asset volatility amplification.",
+        "marginal_contribution_bp": 27.35,
+        "marginal_contribution_interpretation": "Each additional 1% weight in ACHR adds ~27.35 bp to portfolio volatility; at current 1% position, this represents portion of total 261 bp increase.",
+        "source_calculation": "σ_p = sqrt(w_ACHR² × σ_ACHR² + w_Baseline² × σ_Baseline² + 2 × w_ACHR × w_Baseline × ρ × σ_ACHR × σ_Baseline) = sqrt(0.000036 + 0.022052 + 0.00891) = sqrt(0.030998) = 17.61%",
+        "source_reference": "A6_1.md Step 2 Scenario B portfolio volatility calculation"
+      }
+    },
+    {
+      "label": "Contribution to Total Portfolio Risk (1% weight)",
+      "value": "1.55%",
+      "source_url": "A6_1.md",
+      "confidence": "high",
+      "assumed": true,
+      "extras": {
+        "metric": "contribution_to_total_risk_pct",
+        "value_pct": 1.55,
+        "position_weight_pct": 1.0,
+        "portfolio_volatility_pct": 17.61,
+        "portfolio_volatility_bp": 1761,
+        "risk_contribution_bp": 27.36,
+        "total_portfolio_risk_bp": 1761,
+        "interpretation": "ACHR contributes 27.36 bp of the total 1761 bp portfolio risk, representing 1.55% of overall portfolio volatility. Despite 1% weight, position accounts for only 1.55% of risk due to moderate correlation (0.50) with baseline portfolio. Position exhibits positive diversification contribution relative to weight, but negative expected return eliminates any benefit from reduced risk exposure.",
+        "risk_contribution_methodology": "RC = (w × Cov(ACHR, portfolio)) / σ_portfolio",
+        "covariance_calculation": "Cov(ACHR, portfolio) = w_ACHR × σ_ACHR² + w_Baseline × ρ × σ_ACHR × σ_Baseline = 0.01 × (0.60)² + 0.99 × 0.50 × 0.60 × 0.15 = 0.0036 + 0.04455 = 0.04815",
+        "risk_contribution_calculation": "(0.01 × 0.04815) / 0.1761 = 0.0004815 / 0.1761 = 0.002736 portfolio vol units = 27.36 bp",
+        "beta_vs_portfolio": 1.552,
+        "beta_interpretation": "ACHR has beta of 1.552 relative to the 17.61% volatility portfolio, meaning it amplifies portfolio volatility moves by 55.2% above portfolio average.",
+        "source_reference": "A6_1.md Marginal Contribution to Risk section; covariance-based decomposition"
+      }
+    }
+  ],
+  "portfolio_impact_summary": {
+    "recommendation_weight_range_pct": {
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "default": 0.0,
+      "tactical_threshold": 0.5
+    },
+    "sharpe_ratio_impact": {
+      "baseline_sharpe": 0.233,
+      "sharpe_with_1pct_achr": 0.170,
+      "sharpe_deterioration": -0.0635,
+      "sharpe_deterioration_pct": -27.2
+    },
+    "hold_vs_avoid": {
+      "avoid_reasons": [
+        "Negative expected return (-44.3%) disqualifies from Sharpe-maximizing allocation",
+        "Return drag (-44.3 bp) not compensated by diversification benefit (only 1.55% risk contribution)",
+        "High sensitivity to labor market shocks: +1σ wage inflation triggers 65% stock loss per A5.2",
+        "Bull case requires simultaneous execution on three forward drivers (15% probability per A5.1)",
+        "Market pricing near bull case outcomes at current $6.48; asymmetric downside risk"
+      ],
+      "hold_justification": [
+        "Explicit thematic/ESG aerospace exposure mandate required",
+        "Conviction on all three forward drivers: Abu Dhabi Q3 2026 launch, FAA Type Cert late 2026, battery 400 Wh/kg confirmation",
+        "Ability to tolerate 45%+ drawdown and accept quarterly rebalancing discipline",
+        "Portfolio mandate includes long-duration growth/optionality (bull case +33% upside)"
+      ]
+    },
+    "rebalancing_triggers": {
+      "increase_above_1pct_if": [
+        "Abu Dhabi commercial launch confirmed operational with revenue (Q3 2026 milestone)",
+        "FAA Type Certification delivered (late 2026 vs. Q1 2027 base case)",
+        "Production ramp validated at 150+ aircraft annually (approaching base case execution)",
+        "Capital raise confirmed non-dilutive or at $7.00+ per share (Stellantis partnership locked)"
+      ],
+      "decrease_to_zero_if": [
+        "Abu Dhabi launch slips beyond Q4 2026 (probability-weighted transition to base/bear case)",
+        "FAA Type Cert slips >6 months (Q2 2027 or later; competitive disadvantage vs. Joby per A4.2)",
+        "Production ramp misses 100 aircraft run rate (cascades to capital crisis per A5.2)",
+        "Additional $500M+ dilutive capital raise at <$6.00/share (shareholder dilution trigger)"
+      ]
+    },
+    "peer_comparison": {
+      "joby_aviation": {
+        "recommendation": "PREFERRED if constrained to eVTOL allocation; same 0-1% cap applies",
+        "rationale": "60% probability of outperforming Archer per A4.3; FAA Type Cert regulatory advantage (6-12 months ahead) de-risks timeline vs. Archer's UAE GCAA pathway",
+        "caveat": "Joby also has negative expected return; not recommended for core allocation"
+      },
+      "ehang_holdings": {
+        "recommendation": "PREFERRED for risk-off eVTOL exposure",
+        "rationale": "Only profitable peer (EH revenue $72.9M, 10.3x EV/Revenue); autonomous cargo operations model de-risks passenger air taxi TAM concentration",
+        "caveat": "Lower upside optionality; 5-10% expected returns vs. ACHR's +33% bull case"
+      },
+      "default_action": "If seeking eVTOL sector exposure, prioritize EHang (profitable, lower vol); avoid ACHR and Joby due to negative expected returns"
+    }
+  },
+  "data_sources": {
+    "A6_1_md": "Portfolio weight calculation and optimal allocation framework (Markowitz 2-asset optimization)",
+    "A5_1_md": "Three-scenario valuation model: probability-weighted expected return -44.3% (bull 15% +33.1%, base 60% -49.7%, bear 25% -81.8%)",
+    "A5_2_md": "Macro stress tests; base case sensitivity to wage inflation (65% loss at +1σ shock); Sharpe calculations",
+    "A3_3_md": "Regulatory timeline: Abu Dhabi Q3 2026 GCAA RTC pathway, FAA Type Cert late 2026, production ramp 252 aircraft 2027 target",
+    "A4_1_md": "Peer comparison: Joby (55-79x EV/Revenue, FAA Type Cert advantage), EHang (profitable 10.3x multiple), Beta (OEM backlog not comparable)",
+    "A4_3_md": "Probability ranking: 60% Joby > Archer, 55% Archer > Joby; regulatory timeline de-risking drives Joby preference",
+    "A2_3_md": "Forward drivers and capital requirements; Stellantis $400M partnership non-dilutive path assumption"
+  }
+}

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A6.1 — Portfolio Weight — Archer Aviation</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="brand">
+    <div class="brand-name">Lean Agentic Alpha</div>
+    <div class="brand-asset">Archer Aviation</div>
+    <div class="brand-meta">12 months · <code>cycle_4e49685c12</code></div>
+  </div>
+  <ul class="nav"><li class="nav-item"><a href="../index.html">Final Report</a></li><li class="nav-section">Specialist artifacts</li><li class="nav-item"><a href="../artifacts/A2_1.html">A2.1</a></li><li class="nav-item"><a href="../artifacts/A2_2.html">A2.2</a></li><li class="nav-item"><a href="../artifacts/A2_3.html">A2.3</a></li><li class="nav-item"><a href="../artifacts/A3_1.html">A3.1</a></li><li class="nav-item"><a href="../artifacts/A3_2.html">A3.2</a></li><li class="nav-item"><a href="../artifacts/A3_2_v2.html">A3.2 v2</a></li><li class="nav-item"><a href="../artifacts/A3_3.html">A3.3</a></li><li class="nav-item"><a href="../artifacts/A4_1.html">A4.1</a></li><li class="nav-item"><a href="../artifacts/A4_2.html">A4.2</a></li><li class="nav-item"><a href="../artifacts/A4_3.html">A4.3</a></li><li class="nav-item"><a href="../artifacts/A5_1.html">A5.1</a></li><li class="nav-item"><a href="../artifacts/A5_2.html">A5.2</a></li><li class="nav-item active"><a href="../artifacts/A6_1.html">A6.1</a></li><li class="nav-item"><a href="../artifacts/A6_2.html">A6.2</a></li><li class="nav-item"><a href="../artifacts/A7.html">A7</a></li></ul>
+</aside>
+<main class="content">
+  <header class="page-head">
+    <h1 class="page-title">A6.1 — Portfolio Weight</h1>
+    <div class="page-meta"><span class="badge badge-cited">1/4 cited</span><span class="badge badge-assumed">3 assumed</span> <a class="raw-link" href="A6_1.json" target="_blank">view raw JSON</a></div>
+  </header>
+  <article class="markdown">
+    <h1>A6.1 — Portfolio Weight Calculation: Archer Aviation (ACHR)</h1>
+<p><strong>Analysis Date:</strong> May 9, 2026<br>
+<strong>Valuation Horizon:</strong> 12-month outlook to May 2027<br>
+<strong>Current ACHR Stock Price:</strong> $6.48</p>
+<hr>
+<h2>Executive Summary</h2>
+<p>Given <a href="A5_1.html">Archer's probability-weighted expected return of -44.3%</a> over the 12-month horizon, the optimal weight for ACHR in a Sharpe-ratio-maximizing portfolio is <strong>0.0–1.0%</strong> (minimal or zero allocation). Adding even a small 1% position to a baseline S&amp;P 500 portfolio (7% expected return, 15% volatility) reduces the portfolio's Sharpe ratio from <strong>0.233 to 0.170</strong> (27% decline), making ACHR unsuitable for return-driven allocations. Any weight above 1% materially deteriorates risk-adjusted returns.</p>
+<hr>
+<h2>Portfolio Context &amp; Assumptions</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+<th>Source/Assumption</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Baseline Portfolio (S&amp;P 500)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Expected Annual Return</td>
+<td>7.0%</td>
+<td><a href="brief">Brief guidance: growth/core equity baseline</a></td>
+</tr>
+<tr>
+<td>Annual Volatility (σ)</td>
+<td>15.0%</td>
+<td><a href="brief">Brief guidance</a></td>
+</tr>
+<tr>
+<td>Current Sharpe Ratio</td>
+<td>0.233</td>
+<td>(7% − 3.5% rf) / 15% <strong>(ASSUMED)</strong></td>
+</tr>
+<tr>
+<td>Risk-Free Rate (rf)</td>
+<td>3.5%</td>
+<td><a href="A5_2.html">Per A5.2 macro Sharpe calculations</a></td>
+</tr>
+<tr>
+<td><strong>ACHR Standalone</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Expected Annual Return (12-month)</td>
+<td>−44.3%</td>
+<td><a href="A5_1.html">A5.1 probability-weighted: 15% Bull (+33.1%) + 60% Base (−49.7%) + 25% Bear (−81.8%)</a></td>
+</tr>
+<tr>
+<td>Annual Volatility (σ)</td>
+<td>60.0%</td>
+<td><a href="brief">Brief guidance: eVTOL pre-revenue sector risk</a> <strong>(ASSUMED)</strong></td>
+</tr>
+<tr>
+<td>Sharpe Ratio (standalone)</td>
+<td>−0.797</td>
+<td>(−44.3% − 3.5%) / 60% <strong>(ASSUMED)</strong></td>
+</tr>
+<tr>
+<td>Beta vs. Portfolio</td>
+<td>1.4</td>
+<td><a href="default">Default assumption; typical for micro-cap growth</a> <strong>(ASSUMED)</strong></td>
+</tr>
+<tr>
+<td>Correlation (ρ) with S&amp;P 500</td>
+<td>0.50</td>
+<td><a href="default">Default assumption; reasonable for sector-correlated equity</a> <strong>(ASSUMED)</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Optimal Weight Calculation: Sharpe-Maximizing Framework</h2>
+<h3>Step 1: Baseline Portfolio Metrics</h3>
+<p>The S&amp;P 500 baseline (100% allocation) offers:
+- <strong>Return:</strong> 7.0%
+- <strong>Volatility:</strong> 15.0%
+- <strong>Excess Return (vs. rf = 3.5%):</strong> 3.5%
+- <strong>Sharpe Ratio:</strong> 3.5% / 15% = <strong>0.2333</strong></p>
+<hr>
+<h3>Step 2: Candidate Weight Analysis</h3>
+<p>For a Sharpe-maximizing portfolio, we test whether adding ACHR improves the risk-adjusted return. Given the <strong>negative expected return of −44.3%</strong>, this is a low-probability scenario. However, we compute the portfolio impact at illustrative weights:</p>
+<h4><strong>Scenario A: Zero Weight (100% Baseline)</strong></h4>
+<ul>
+<li><strong>Portfolio Return:</strong> 7.0%</li>
+<li><strong>Portfolio Volatility:</strong> 15.0%</li>
+<li><strong>Sharpe Ratio:</strong> 0.2333</li>
+<li><strong>Status:</strong> Baseline benchmark.</li>
+</ul>
+<hr>
+<h4><strong>Scenario B: 1% ACHR / 99% Baseline</strong> <em>(RECOMMENDED MAXIMUM)</em></h4>
+<p><strong>Portfolio Return:</strong>
+$$E[R_p] = w_{ACHR} × E[R_{ACHR}] + w_{Base} × E[R_{Base}]$$
+$$E[R_p] = 0.01 × (−44.3\%) + 0.99 × 7.0\% = −0.443\% + 6.93\% = 6.487\%$$</p>
+<p><strong>Portfolio Volatility:</strong>
+$$σ_p^2 = w_{ACHR}^2 × σ_{ACHR}^2 + w_{Base}^2 × σ_{Base}^2 + 2 × w_{ACHR} × w_{Base} × ρ × σ_{ACHR} × σ_{Base}$$
+$$σ_p^2 = (0.01)^2 × (0.60)^2 + (0.99)^2 × (0.15)^2 + 2 × 0.01 × 0.99 × 0.50 × 0.60 × 0.15$$
+$$σ_p^2 = 0.000036 + 0.022052 + 0.00891 = 0.030998$$
+$$σ_p = \sqrt{0.030998} = 0.1761 = 17.61\%$$</p>
+<p><strong>Sharpe Ratio:</strong>
+$$Sharpe_p = \frac{E[R_p] − r_f}{σ_p} = \frac{6.487\% − 3.5\%}{17.61\%} = \frac{2.987\%}{17.61\%} = 0.1698$$</p>
+<p><strong>Sharpe Deterioration:</strong>
+$$ΔSharpe = 0.1698 − 0.2333 = −0.0635 \text{ (−27.2\% decline)}$$</p>
+<hr>
+<h4><strong>Scenario C: 2% ACHR / 98% Baseline</strong> <em>(ILLUSTRATIVE: NOT RECOMMENDED)</em></h4>
+<p><strong>Portfolio Return:</strong>
+$$E[R_p] = 0.02 × (−44.3\%) + 0.98 × 7.0\% = −0.886\% + 6.86\% = 5.974\%$$</p>
+<p><strong>Portfolio Volatility:</strong>
+$$σ_p^2 = (0.02)^2 × (0.60)^2 + (0.98)^2 × (0.15)^2 + 2 × 0.02 × 0.98 × 0.50 × 0.60 × 0.15$$
+$$σ_p^2 = 0.000144 + 0.021609 + 0.01764 = 0.039393$$
+$$σ_p = \sqrt{0.039393} = 0.1985 = 19.85\%$$</p>
+<p><strong>Sharpe Ratio:</strong>
+$$Sharpe_p = \frac{5.974\% − 3.5\%}{19.85\%} = \frac{2.474\%}{19.85\%} = 0.1247$$</p>
+<p><strong>Sharpe Deterioration:</strong>
+$$ΔSharpe = 0.1247 − 0.2333 = −0.1086 \text{ (−46.5\% decline)}$$</p>
+<hr>
+<h3>Step 3: Risk-Parity Comparison (Alternative Framework)</h3>
+<p>Under a <strong>risk-parity</strong> allocation (each asset contributes equally to portfolio volatility):</p>
+<p>$$w_{ACHR} × σ_{ACHR} = w_{Base} × σ_{Base}$$
+$$w_{ACHR} × 60\% = (1 − w_{ACHR}) × 15\%$$
+$$w_{ACHR} = \frac{15\%}{75\%} = 0.20 \text{ or } 20\%$$</p>
+<p>Risk-parity weight: <strong>20% ACHR / 80% Baseline</strong></p>
+<p><strong>Portfolio Return:</strong>
+$$E[R_p] = 0.20 × (−44.3\%) + 0.80 × 7.0\% = −8.86\% + 5.6\% = −3.26\%$$</p>
+<p><strong>Portfolio Volatility:</strong>
+$$σ_p = \sqrt{(0.20 × 60\%)^2 + (0.80 × 15\%)^2 + 2 × 0.20 × 0.80 × 0.50 × 60\% × 15\%}$$
+$$σ_p = \sqrt{(12\%)^2 + (12\%)^2 + 2 × 0.12 × 0.12} = \sqrt{0.0144 + 0.0144 + 0.003456} = 17.33\%$$</p>
+<p><strong>Sharpe Ratio:</strong>
+$$Sharpe_p = \frac{−3.26\% − 3.5\%}{17.33\%} = \frac{−6.76\%}{17.33\%} = −0.390$$</p>
+<p><strong>Assessment:</strong> Risk-parity allocation is <strong>unacceptable</strong> — portfolio return falls below the risk-free rate, resulting in deeply negative Sharpe ratio. Not recommended.</p>
+<hr>
+<h2>Recommended Weight: 0–1% (Minimal Allocation)</h2>
+<h3>Rationale</h3>
+<ol>
+<li>
+<p><strong>Negative Expected Return Dominates:</strong> <a href="A5_1.html">ACHR's 12-month expected return of −44.3%</a> reflects a <strong>60% probability of base/bear case outcomes</strong> (−49.7% to −81.8%), with only a <strong>15% probability of bull case</strong> (+33.1%) that would deliver positive returns. The probability-weighted outcome is deeply negative.</p>
+</li>
+<li>
+<p><strong>Sharpe Ratio Deterioration:</strong> Even a 1% allocation reduces portfolio Sharpe by 27%, equivalent to a <strong>~270 bp return drag</strong> on a 15% volatility baseline. For every 1% added to ACHR, the portfolio loses approximately <strong>0.0635 units of Sharpe ratio.</strong></p>
+</li>
+<li>
+<p><strong>Volatility Amplification:</strong> <a href="brief">ACHR's 60% annualized volatility</a> is <strong>4× the baseline portfolio's 15%</strong>, and <a href="default">correlation of 0.50 with the S&amp;P 500 is moderate but meaningful</a>. Adding 1% ACHR increases portfolio volatility by <strong>~260 bp</strong> (from 15.0% to 17.61%), an 17% increase in risk for negative return.</p>
+</li>
+<li>
+<p><strong>Macro Sensitivity Risk:</strong> <a href="A5_2.html">A5.2 stress tests show ACHR is highly sensitive to labor market shocks</a> (base case wage inflation shock drives stock from $3.25 to $1.13, a −65% loss). This idiosyncratic risk is not compensated by expected return.</p>
+</li>
+<li>
+<p><strong>Bull Case Optionality Has Low Probability:</strong> While <a href="A5_1.html">the bull case offers +33% return</a>, it requires <strong>simultaneous execution on three forward drivers</strong> (Abu Dhabi Q3 2026 launch, FAA Type Cert Q4 2026, battery 400 Wh/kg confirmation) with estimated <strong>combined ~39% all-hit probability</strong>. Betting 1%+ of capital on a 15% probability event is inefficient.</p>
+</li>
+</ol>
+<hr>
+<h2>Expected Contribution to Portfolio Returns (1% Weight Scenario)</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+<th>Calculation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ACHR Allocation Weight</strong></td>
+<td>1.0%</td>
+<td>Recommended maximum</td>
+</tr>
+<tr>
+<td><strong>ACHR Expected Return</strong></td>
+<td>−44.3%</td>
+<td><a href="A5_1.html">A5.1 probability-weighted</a></td>
+</tr>
+<tr>
+<td><strong>Contribution to Portfolio Return</strong></td>
+<td>−0.443%</td>
+<td>1.0% × (−44.3%)</td>
+</tr>
+<tr>
+<td><strong>Baseline Return Contribution</strong></td>
+<td>6.930%</td>
+<td>99.0% × 7.0%</td>
+</tr>
+<tr>
+<td><strong>Net Portfolio Return</strong></td>
+<td>6.487%</td>
+<td>6.930% − 0.443%</td>
+</tr>
+<tr>
+<td><strong>Drag vs. 100% Baseline</strong></td>
+<td>−51.3 bp</td>
+<td>6.487% − 7.0%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Marginal Contribution to Risk (1% Weight Scenario)</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+<th>Calculation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ACHR Weight</strong></td>
+<td>1.0%</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>ACHR Beta (vs. Portfolio)</strong></td>
+<td>1.4</td>
+<td><a href="default">Default assumption</a> <strong>(ASSUMED)</strong></td>
+</tr>
+<tr>
+<td><strong>Baseline Portfolio Volatility</strong></td>
+<td>15.0%</td>
+<td><a href="brief">Per brief</a></td>
+</tr>
+<tr>
+<td><strong>Marginal Risk Contribution</strong></td>
+<td>21.0 bp</td>
+<td>1.0% × 1.4 × 15.0%</td>
+</tr>
+<tr>
+<td><strong>Portfolio Volatility (with 1% ACHR)</strong></td>
+<td>17.61%</td>
+<td><a href="A6_1.html">From Step 2 above</a></td>
+</tr>
+<tr>
+<td><strong>Risk Increase vs. Baseline</strong></td>
+<td>261 bp</td>
+<td>17.61% − 15.0%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interpretation:</strong> The 1% ACHR position contributes 21 bp of marginal risk (1% × beta × baseline vol), but portfolio volatility rises by 261 bp due to ACHR's high standalone volatility (60%) and moderate correlation (0.50) with the baseline. This amplification effect makes ACHR an inefficient risk contributor.</p>
+<hr>
+<h2>Portfolio Sharpe Ratio Impact</h2>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Portfolio Weight</th>
+<th>Expected Return</th>
+<th>Volatility</th>
+<th>Sharpe Ratio</th>
+<th>Δ Sharpe</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Baseline (100% S&amp;P)</strong></td>
+<td>—</td>
+<td>7.000%</td>
+<td>15.00%</td>
+<td>0.2333</td>
+<td>—</td>
+<td>Benchmark</td>
+</tr>
+<tr>
+<td><strong>+ 1% ACHR</strong></td>
+<td>1% / 99%</td>
+<td>6.487%</td>
+<td>17.61%</td>
+<td>0.1698</td>
+<td>−0.0635</td>
+<td>Acceptable minimum</td>
+</tr>
+<tr>
+<td><strong>+ 2% ACHR</strong></td>
+<td>2% / 98%</td>
+<td>5.974%</td>
+<td>19.85%</td>
+<td>0.1247</td>
+<td>−0.1086</td>
+<td>Not recommended</td>
+</tr>
+<tr>
+<td><strong>+ 5% ACHR</strong></td>
+<td>5% / 95%</td>
+<td>4.446%</td>
+<td>26.53%</td>
+<td>0.0366</td>
+<td>−0.1967</td>
+<td>Unacceptable</td>
+</tr>
+<tr>
+<td><strong>Risk-Parity (20% ACHR)</strong></td>
+<td>20% / 80%</td>
+<td>−3.260%</td>
+<td>17.33%</td>
+<td>−0.3896</td>
+<td>−0.6229</td>
+<td>Rejected</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Rebalancing Rationale</h2>
+<h3>Why Minimal Weight (vs. Zero)?</h3>
+<p>While a 0% weight is theoretically optimal for a <strong>current Sharpe-maximizing portfolio</strong>, a 0.5–1.0% <strong>tactical threshold</strong> may be justified if:</p>
+<ol>
+<li><strong>Portfolio mandate includes thematic/ESG exposure</strong> to aerospace/eVTOL sector <a href="A2_3.html">per A2.3 forward drivers</a> (commercial aviation decarbonization).</li>
+<li><strong>Bull case represents an embedded option:</strong> The 15% probability of +33% return could appeal to investors with long time horizons and conviction on <a href="A3_3.html">FAA Type Certification acceleration and Abu Dhabi commercial launch</a>.</li>
+<li><strong>Diversification vs. concentration risk:</strong> A sub-1% weight introduces minimal drag while providing upside capture if <a href="A5_1.html">execution drivers align</a>.</li>
+</ol>
+<h3>When to Increase Weight Above 1%?</h3>
+<p>Increase ACHR allocation only if:
+- <a href="A3_3.html">Abu Dhabi launch confirmed and operationalized (Q3 2026 milestone achieved)</a>
+- <a href="A3_3.html">FAA Type Certification delivered on schedule (Q4 2026, vs. bull case +/− 6-month window)</a>
+- Production ramp validated at 150+ aircraft/year (moves toward base case execution)
+- Capital raise terms improve (Stellantis partnership confirmed non-dilutive)</p>
+<h3>Benchmark Comparison</h3>
+<p>Typical growth portfolio allocations:
+- <strong>QQQ (Nasdaq-100):</strong> 0% ACHR (no aerospace pure-play weight)
+- <strong>ARK Innovation ETF (ARKK):</strong> Estimated 0.5–2% eVTOL sector weight via Joby, Beta, Lilium crossholdings; Archer likely &lt;0.5% given execution concerns vs. Joby
+- <strong>MSCI World Growth:</strong> 0% ACHR (not in index; micro-cap exposure not captured)</p>
+<p><strong>Recommendation:</strong> Do not use ACHR as a core holding. If included at all, cap at 1% as a <strong>speculative/tactical satellite position</strong> with quarterly review contingent on forward driver milestones.</p>
+<hr>
+<h2>Conclusion</h2>
+<p>Archer Aviation's <strong>probability-weighted 12-month expected return of −44.3%</strong> makes it unsuitable for inclusion in a return-optimized portfolio. The recommended weight is <strong>0.0–1.0%</strong>, with a practical cap of <strong>1.0%</strong> only for investors with explicit thematic mandates and conviction on <a href="A5_1.html">bull case forward driver execution</a> (15% probability). Any allocation above 1% materially deteriorates portfolio Sharpe ratio and is not justified by current risk-return profile.</p>
+<p>The 1% maximum recommendation provides a <strong>compromise position</strong>: minimal drag (51 bp return loss) while preserving access to <a href="A5_1.html">potential bull case upside</a> and acknowledging sector thematic interest. Rebalance upward only upon <a href="A3_3.html">confirmation of 2–3 forward driver milestones</a>.</p>
+<hr>
+<h2>Data Confidence &amp; Limitations</h2>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Confidence</th>
+<th>Caveat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACHR 12-month expected return (−44.3%)</td>
+<td>HIGH</td>
+<td><a href="A5_1.html">Derived from A5.1 three-scenario valuation</a> with explicit probabilities</td>
+</tr>
+<tr>
+<td>ACHR volatility (~60%)</td>
+<td>MEDIUM</td>
+<td><a href="brief">Estimated from eVTOL sector and pre-revenue equity volatility</a>; actual realized vol subject to market regime</td>
+</tr>
+<tr>
+<td>Baseline S&amp;P 500 return (7%) and vol (15%)</td>
+<td>HIGH</td>
+<td><a href="brief">Standard long-term equity assumptions</a></td>
+</tr>
+<tr>
+<td>ACHR correlation (0.50) and beta (1.4)</td>
+<td>LOW</td>
+<td><a href="default">Default assumptions; actual correlation depends on macro/sector environment</a> <strong>(ASSUMED)</strong></td>
+</tr>
+<tr>
+<td>Risk-free rate (3.5%)</td>
+<td>MEDIUM-HIGH</td>
+<td><a href="A5_2.html">From A5.2 Sharpe calculations</a>; subject to Fed policy shifts</td>
+</tr>
+<tr>
+<td>Sharpe ratio improvements</td>
+<td>LOW</td>
+<td><a href="A6_1.html">All portfolio-level Sharpe computations are illustrative</a> <strong>(ASSUMED)</strong>; actual realization depends on correlation path and realized volatility</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>References</h2>
+<ul>
+<li><a href="A5_1.html">A5.1 — 3-Scenario Valuation Model: Archer Aviation</a> — Bull/Base/Bear scenarios, probability weighting, expected return calculation</li>
+<li><a href="A5_2.html">A5.2 — Scenario Validation: Macro Stress Tests</a> — Sharpe ratio methodology, risk-free rate 3.5%, ACHR macro sensitivity</li>
+<li><a href="A3_3.html">A3.3 — Regulatory &amp; Timing Events: Archer Aviation</a> — Abu Dhabi Q3 2026, FAA Type Cert Q4 2026, event probabilities</li>
+<li><a href="A4_2.html">A4.2 — Competitive Edges</a> — Labor/battery constraints, production risk</li>
+<li><strong>Brief guidance:</strong> S&amp;P 500 baseline (7% return, 15% vol), ACHR standalone vol ~60%</li>
+</ul>
+<hr>
+<p><strong>End of A6.1 Portfolio Weight Analysis</strong></p>
+  </article>
+  <footer class="page-foot">
+    <div>Generated by Lean Agentic Alpha · cycle <code>cycle_4e49685c12</code></div>
+  </footer>
+</main>
+</body>
+</html>

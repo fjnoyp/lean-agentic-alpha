@@ -1,0 +1,95 @@
+{
+  "stage": "A3.3",
+  "summary": "Five critical regulatory and operational milestones within May 2026–May 2027: Abu Dhabi commercial launch (Q3 2026, 75% prob), White House eIPP pre-certification revenue operations (H2 2026, 80% prob), FAA Type Certification (Q4 2026–Q1 2027, 65% prob), USAF aircraft deliveries (H2 2026–H1 2027, 60% prob), and production ramp confirmation (2026–2027, 50% prob). All events aligned to unlock Commercial Revenue Launch and Type Certification drivers identified in A2.3.",
+  "rows": [
+    {
+      "label": "Abu Dhabi Commercial Operations Launch",
+      "value": "First paying passenger flights in Abu Dhabi under UAE Restricted Type Certificate; validates first revenue-generating operation",
+      "source_url": "https://www.travelsdubai.com/08-May-2026/uae-regulator-clears-major-milestone-archer-s-midnight-air-taxi-launch",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "event": "Archer Midnight aircraft begins commercial eVTOL passenger service in Abu Dhabi with Abu Dhabi Aviation (ADA) as launch customer",
+        "timing": "Q3 2026 (July–September 2026)",
+        "probability_pct": 75,
+        "impact_direction": "+",
+        "impact_magnitude": "H",
+        "driver_impact": "Commercial Revenue Launch (direct unlock: first revenue monetization)",
+        "regulatory_milestone": "UAE GCAA Restricted Type Certificate approval; faster pathway than US Type Cert",
+        "confirmation_source": "https://gulfnews.com/business/aviation/archer-inches-closer-to-flying-air-taxis-in-abu-dhabi-with-new-uae-certification-1.500533561"
+      }
+    },
+    {
+      "label": "White House eVTOL Integration Pilot Program Revenue Operations",
+      "value": "Pre-certification commercial revenue flights launched in Texas, Florida, and New York under DOT/FAA eIPP; enables revenue before Type Cert completion",
+      "source_url": "https://www.investors.archer.com/news/news-details/2026/Archers-US-Air-Taxi-Operations-Take-Major-Step-Forward-as-Florida-New-York-and-Texas-Selected-for-White-House-Pilot-Program/default.aspx",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "event": "Archer begins revenue-generating eVTOL flights in three US states under White House eIPP framework, which permits commercial operations before final FAA Type Certification",
+        "timing": "H2 2026 (July–December 2026), with operations groundwork beginning immediately",
+        "probability_pct": 80,
+        "impact_direction": "+",
+        "impact_magnitude": "H",
+        "driver_impact": "Commercial Revenue Launch (direct unlock: US pre-cert revenue pathway)",
+        "regulatory_basis": "White House executive order 'Unleashing American Drone Dominance' (June 2025); DOT/FAA selection March 9, 2026",
+        "geographic_scope": "Texas (TXDOT partnership), Florida (FDOT partnership), New York (Port Authority partnership)"
+      }
+    },
+    {
+      "label": "FAA Type Certification Issuance",
+      "value": "Final FAA Type Certificate issued for Midnight aircraft; enables unlimited US commercial passenger operations under Part 23 amended powered-lift standards",
+      "source_url": "https://www.aircraftinsider.com/joby-aviation-clears-faa-stage-4-certification-first-ever-commercial-evtol-certificate-now-within-reach/",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "event": "Archer receives FAA Type Certification, completing commercial regulatory unlock for US operations",
+        "timing": "Q4 2026 – Q1 2027 (October 2026 – March 2027), estimated based on Joby Stage 4 completion (March 2026) and 6–12 month competitive lag",
+        "probability_pct": 65,
+        "impact_direction": "+",
+        "impact_magnitude": "M",
+        "driver_impact": "FAA Type Certification Completion (direct fulfillment; necessary for commercial scaling)",
+        "current_status": "Archer achieved 100% Means of Compliance acceptance (May 2026); currently in Type Inspection Authorization (TIA) phase",
+        "regulatory_support": "FAA Part 194 (operating rule) finalized March 2026; Congressional bill (Feb 16, 2026) accelerates 270-day rule review timelines",
+        "competitive_benchmark": "Joby Stage 4 completed late March 2026; Archer estimated 6–12 months behind"
+      }
+    },
+    {
+      "label": "USAF Contract Execution & Aircraft Deliveries",
+      "value": "$142M USAF contract: delivery of up to six Midnight aircraft with pilot training, certification test reports, and maintenance operations development",
+      "source_url": "https://www.govconwire.com/articles/archer-aviation-books-142m-usaf-electric-aircraft-delivery-contracts",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "event": "Archer delivers first Midnight aircraft to USAF under existing contract; validates defense partnership and generates initial revenue",
+        "timing": "H2 2026 – Q1 2027 (July 2026 – March 2027), aligned with USAF pilot program milestones on track for 2026",
+        "probability_pct": 60,
+        "impact_direction": "+",
+        "impact_magnitude": "M",
+        "driver_impact": "Commercial Revenue Launch (proof-of-concept revenue from USAF partnership)",
+        "contract_scope": "Up to 6 Midnight aircraft; flight test data, certification test reports, pilot training, maintenance/repair operations",
+        "execution_risk": "Aircraft delivery dependent on production ramp and USAF operational readiness; moderate execution risk",
+        "evidence_source": "https://www.compositesworld.com/news/archer-aviation-q4-fiscal-year-2025-results-confirm-on-track-us-uae-midnight-pilot-programs-for-2026"
+      }
+    },
+    {
+      "label": "Production Ramp & Revenue Scale Confirmation",
+      "value": "Archer achieves 500 aircraft production target in 2026 and begins 650 aircraft/year cadence in 2027 at 40–50% gross margins; validates manufacturing readiness and capital efficiency",
+      "source_url": "https://www.flyingmag.com/archer-aviation-sets-production-goal-of-2000-aircraft-annually",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "event": "Archer demonstrates ability to deliver aircraft at scale necessary to support Abu Dhabi, eIPP, and United Airlines operations in parallel",
+        "timing": "Q4 2026 & Q1–Q2 2027 (December 2026 – June 2027), evaluated through quarterly earnings releases",
+        "probability_pct": 50,
+        "impact_direction": "+",
+        "impact_magnitude": "M",
+        "driver_impact": "All three A2.3 drivers (Revenue Launch, Type Cert, Battery & Capital): production ramp gates revenue scaling and validates capital efficiency",
+        "production_targets": "2026: 500 aircraft annually; 2027: 650 aircraft annually at 40–50% gross margin = $500–630M gross profit",
+        "manufacturing_support": "Stellantis $400M manufacturing capital through 2030; Georgia and California facilities operational as of Q4 2025",
+        "execution_risk": "High risk (50% probability) due to aggressive ramp from 6 aircraft (Aug 2025) baseline; battery supply chain and labor constraints primary concerns",
+        "financial_runway": "Archer $2B+ liquidity as of May 2026; 18–24 month cash runway with eIPP + Abu Dhabi revenue offsets"
+      }
+    }
+  ]
+}

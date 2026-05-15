@@ -1,0 +1,72 @@
+
+{
+  "stage": "A2.1",
+  "summary": "Archer Aviation's TSR from IPO (Sept 2021) to May 2026 is -33%, driven primarily by valuation multiple compression from $3.8B (SPAC) to $633M (Dec 2022 trough) to $4.9B (current), reflecting market skepticism of pre-revenue eVTOL profitability timelines. A secondary drag is 95% share dilution (390M to 760M shares) from $1.93B in capital raises, which destroyed per-share value despite stable enterprise value. Regulatory milestone achievement (4+ FAA certifications, USAF delivery) and strategic partnerships (United, Boeing, Stellantis) provided positive sentiment but were overwhelmed by repeated dilutive raises and sector-wide eVTOL downturn. Revenue inflection will be the next TSR catalyst.",
+  "rows": [
+    {
+      "label": "Valuation Multiple Compression / Re-rating",
+      "value": "-$3.2B (58%) from peak valuation to trough; currently -30% below IPO level",
+      "source_url": "https://techcrunch.com/2021/02/10/archer-lands-1-1b-order-from-united-airlines-and-a-spac-deal/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "period": "2021-2026",
+        "metric": "Implied equity valuation",
+        "delta_metric": "$3.8B (Feb 2021) → $633M (Dec 2022) → $4.9B (May 2026)",
+        "correlation_to_tsr": "Stock fell from $18.60 pre-IPO to $1.62 (Dec 2022) to $6.28 (May 2026). Market repriced from SPAC optimism to recognition that commercial timelines extend well beyond 2024. Valuation re-rating is the dominant TSR driver (-60% to -70% of return drag). Even strong FAA milestones did not prevent multiple compression due to pre-revenue risk and sector skepticism on unit economics."
+      }
+    },
+    {
+      "label": "Share Dilution from Repeated Capital Raises",
+      "value": "+95% share count expansion ($1.93B raised over 8 rounds)",
+      "source_url": "https://tracxn.com/d/companies/archer/__ig9fnZgJ1SPzPFGeazuVHVUmRoJKqMHqBieQMh_qqcc/funding-and-investors",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "period": "2021-2026",
+        "metric": "Share count and dilution",
+        "delta_metric": "~390M shares (Sept 2021 IPO) → 759.6M shares (May 2026); +95% dilution",
+        "correlation_to_tsr": "Each capital raise coincided with stock weakness. Company maintained ~$3.7B-$4.9B market cap while share count doubled, destroying per-share ownership value by ~50%. Major rounds: $600M PIPE (2021), $175M (July 2023), $220M (Aug 2024, halved stock price that year), $300M (Feb 2025), $850M (June 2025, 14% drop). Dilution is second-order TSR driver (-30% to -40% of return drag)."
+      }
+    },
+    {
+      "label": "Regulatory Milestone Achievement (FAA Certifications & Flight Tests)",
+      "value": "7 major milestones: Special Airworthiness (June 2023), Final Airworthiness Criteria (May 2024), Part 135 Carrier (June 2024), Transition Flight (June 2024), USAF Delivery (Aug 2024), Pilot Academy Cert (2025), 400+ test flights",
+      "source_url": "https://investors.archer.com/news/news-details/2024/Archer-Achieves-Significant-Regulatory-Milestone-FAA-Issues-Final-Airworthiness-Criteria-For-Its-Midnight-Aircraft/default.aspx",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "period": "2023-2025",
+        "metric": "FAA certification milestones and flight test achievement",
+        "delta_metric": "4 FAA certificates obtained; Midnight transitioned at 100+ mph, 6,500 lbs payload",
+        "correlation_to_tsr": "Positive milestones but insufficient to drive positive TSR. August 2023 USAF announcement + $215M investment round sparked 40% rally, but was eroded by subsequent dilution. Regulatory progress prevents downside (bankruptcy risk) but market prices in success; does not reward execution until revenue appears. Milestones demonstrate capability but pre-revenue status limits TSR impact."
+      }
+    },
+    {
+      "label": "Strategic Partnerships & Customer Commitments",
+      "value": "$1.5B+ in conditional commitments: United Airlines ($1B order + $10M prepayment), Stellantis (mfg + $400M commitment), Boeing (equity), USAF (first delivery)",
+      "source_url": "https://www.cnbc.com/2021/02/10/united-airlines-orders-electric-vertical-aircraft-invests-in-urban-air-mobility-spac.html",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "period": "2021-2024",
+        "metric": "Strategic partnerships and pre-orders",
+        "delta_metric": "$1.5B+ conditional commitments vs. $0 revenue realized to date",
+        "correlation_to_tsr": "Partnerships are positive sentiment drivers but limited TSR impact because all commitments are pre-revenue and conditional. United $1B order and Boeing participation were catalyst for SPAC announcement (Feb 2021), but partnerships have not materialized into revenue. Stellantis manufacturing partnership ($400M labor cost funding) and USAF delivery (Aug 2024) endorse technology but do not drive TSR until revenue recognition begins. Partnership announcements often coincided with capital raises, neutralizing positive sentiment."
+      }
+    },
+    {
+      "label": "Sector-Wide eVTOL Downturn & Peer Comparison",
+      "value": "Lilium bankruptcy (Feb 2025, ~$1.4B cumulative losses); Joby low of $3.31 (2023, ~$1B+ losses); Archer losses of $457M (2023), $1.14B cumulative (5-year)",
+      "source_url": "https://www.commercialuavnews.com/archer-and-joby-the-difference-between-first-to-market-and-market-leader",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "period": "2022-2024",
+        "metric": "Sector-wide eVTOL performance and peer losses",
+        "delta_metric": "All major players (Lilium, Joby, Archer) hit multi-year lows 2022-2023; Archer rebounded to $12.47 (Jan 2025) vs. peers",
+        "correlation_to_tsr": "Broad eVTOL sector skepticism 2022-2024 created macro headwind affecting all players equally. Archer outperformed peers in recovery, suggesting stronger relative execution (faster certifications, stronger partnerships), but still subject to sector-wide sentiment on timelines and unit economics. Sector downturn amplified valuation compression at Archer despite milestone achievement."
+      }
+    }
+  ]
+}

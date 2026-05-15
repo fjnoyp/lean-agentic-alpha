@@ -1,0 +1,90 @@
+{
+  "stage": "A2.2",
+  "summary": "Six structural macro and industry levers drive Archer's negative TSR: battery energy density immaturity (400+ Wh/kg target 2027–2028, vs. 1,000 Wh/kg need for viability), regulatory complexity (FAA powered-lift framework published July 2025 but ~50 rules still pending), vertiport infrastructure capital intensity ($6–7M per site, 9-month development), financing environment tightening post-2021 peak ($7.5B VC in 2021 → $1.3B in 2023), competitive consolidation pressure (800+ programs → 2–3 survivors), and labor cost arbitrage remaining a long-term lever. Each lever interacts to constrain near-term TSR despite Archer's superior regulatory execution and partnerships; recovery depends on crossing 18–36 month inflection points.",
+  "rows": [
+    {
+      "label": "Battery Energy Density & Technology Maturity",
+      "value": "Lithium-ion: 90–260 Wh/kg; Solid-state targeting 400+ Wh/kg by 2026–2027; Industry need: 1,000 Wh/kg for realistic regional aviation",
+      "source_url": "https://pubs.acs.org/doi/10.1021/acsenergylett.9b02574",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "structural_driver": "Global battery technology development curves (lithium-ion, solid-state, lithium-sulfur); energy density roadmaps across manufacturing sector",
+        "mechanism": "eVTOL commercial viability is gated by battery performance. Current cells provide insufficient energy density to achieve the 1,000+ flight hours/year required for operator profitability. Solid-state progress targeting 400+ Wh/kg by 2027 will extend range to ~500 miles (sufficient for urban routes) but falls short of threshold for longer interline operations. This 3–5 year gap between current performance and industry need creates a structural constraint on path-to-profitability visibility.",
+        "sensitivity": "H",
+        "historical_example": "Toyota EV battery development 2010–2020 saw energy density improve from ~100 Wh/kg to ~240 Wh/kg; eVTOL sector needs similar acceleration to cross 400+ Wh/kg by 2027.",
+        "linked_a21_metric": "Valuation Multiple Compression; Market discounts pre-revenue status because battery roadmaps show path-to-profitability inflection points are 3–5 years away, not 1–2 years."
+      }
+    },
+    {
+      "label": "FAA Powered-Lift Regulatory Framework Maturity",
+      "value": "Advisory Circular 21.17-4 published July 18, 2025 (first eVTOL-specific guidance); ~50 additional rules pending; Archer Type Certification timeline: 18–24 months from May 2026 (estimated 2027–2028); Commercial operations projected for Archer, Joby, Beta by 2027 or later",
+      "source_url": "https://evtol.news/news/commentary-faa-changes-course-on-evtol-certification",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "structural_driver": "FAA rulemaking agenda; International regulatory harmonization (EASA, CAAC); Powered-lift aircraft certification framework evolution (new category since helicopters in 1940s)",
+        "mechanism": "Archer's regulatory progress (Special Airworthiness Cert June 2023, Part 135 June 2024, Part 141 2025) was accelerated by FAA's powered-lift category decision. However, the regulatory regime remains incomplete: AC 21.17-4 (July 2025) covers core guidance, but ~50 distributed electric propulsion, hybrid architecture, and autonomous function rules still pending. This creates timeline risk: any unanticipated FAA requirement could slip Type Certification by 6–18 months, extending pre-revenue period.",
+        "sensitivity": "M",
+        "historical_example": "Cirrus SR22 certification took 7 years from design to Type Certification (2004); eVTOL powered-lift is a new category with similar complexity, despite Archer's expedited path.",
+        "linked_a21_metric": "Regulatory Milestone Progress; Archer is ahead of peers but final Type Certification remains binary risk 18–24 months away, insufficient to drive TSR recovery without revenue visibility."
+      }
+    },
+    {
+      "label": "Vertiport Infrastructure Capital Intensity & Supply Chain Constraints",
+      "value": "Vertiport cost: $6–7 million per site (Illinois estimate); Power requirement: 1–2 MW per pad; Development timeline: 9 months minimum; FAA eIPP projects: 8 selected March 2026, online by summer 2026; Battery supply constraint: Lithium production growth 28% vs. expected demand (shortfall); Aerospace labor shortage: STEM workforce aging, supply chain disruptions ongoing",
+      "source_url": "https://lowaltitudeeconomy.aero/evtol-news-and-electric-aircraft-news/advanced-air-mobility/future-vertical-aam-report-2026",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "structural_driver": "Vertiport development costs and timelines; Electrical grid capacity constraints; Battery supply chain scaling (lithium, nickel, cobalt availability); Aerospace manufacturing labor availability (skill gap, aging workforce); Venture capital availability post-2021 peak",
+        "mechanism": "eVTOL ecosystem buildout is capital-intensive across three layers: (1) Aircraft manufacturing and Type Certification ($1–2B per OEM), (2) Vertiport infrastructure ($6–7M per site), (3) Battery supply chain scaling (constrained by lithium/nickel availability and manufacturing labor). The venture capital that funds this ecosystem peaked at $7.5B in 2021, fell to $1.3B in 2023, forcing OEMs like Archer into repeated equity raises (dilution) rather than debt financing. Energy infrastructure has emerged as the primary bottleneck for vertiport deployment, shifting burden to governments and private developers rather than OEMs.",
+        "sensitivity": "H",
+        "historical_example": "SpaceX's path to Falcon 9 profitability (2005–2015) required ~$1B in capital over 10 years; Archer's path to commercial eVTOL operations may require similar total capital compressed into 5–7 years, accelerating dilution pressure.",
+        "linked_a21_metric": "Share Dilution from Repeated Capital Raises; Archer's 95% share count increase reflects high capital intensity of ecosystem, requiring systematic equity raises to maintain runway."
+      }
+    },
+    {
+      "label": "Urbanization & TAM Expansion",
+      "value": "Global UAM market 2026: $2.16 billion; Projected 2035: $16.27 billion; CAGR: 20.9%; Cities >1M population by 2035: 800+ (2.5B people); Short-range routes <50km: Largest market segment in 2025; North America: Largest current market; Europe: Fastest growth rate projected",
+      "source_url": "https://www.globenewswire.com/news-release/2026/02/13/3237931/28124/en/Urban-Air-Mobility-Market-Analysis-Report-2026-18-56-Bn-Market-Opportunities-Trends-Competitive-Landscape-Strategies-and-Forecasts-2020-2025-2025-2030F, 2035F.html",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "structural_driver": "Global urbanization rates; Population concentration in megacities; Congestion levels in major metropolitan areas; Income growth in emerging markets; Ground transportation congestion and airport capacity constraints",
+        "mechanism": "eVTOL demand is fundamentally driven by urbanization, congestion, and income elasticity for premium transportation. UN projects 800+ cities >1M population by 2035 (2.5B people), creating intra-city travel demand. Short-range routes (<50km) dominate near-term market because eVTOL technology is optimized for urban commute distances. This is a secular, exogenous macro trend not dependent on Archer's execution. Once battery and regulatory thresholds are crossed, urbanization will drive utilization rates and pricing power for winners like Archer.",
+        "sensitivity": "M",
+        "historical_example": "Ride-sharing (Uber, Lyft) growth 2009–2019 was driven by smartphone adoption, urbanization, and regulatory clarity in major metros. eVTOL adoption will follow similar pattern: urbanization (necessary) + technology readiness (battery, aircraft) + regulatory framework (FAA Part 135) + infrastructure (vertiports).",
+        "linked_a21_metric": "Strategic Partnerships & Customer Commitments; United's $1B conditional order and USAF partnership are bets on long-term TAM expansion; urbanization confirms fundamental demand thesis."
+      }
+    },
+    {
+      "label": "Competitive Consolidation & Industry Concentration",
+      "value": "Global eVTOL programs: 800+ as of end-2024; Programs with $1–2B certification capital: <30; Projected survivors by 2030: 2–3 OEMs; Top 4 players (Joby, Archer, Lilium, Vertical) market share: <30% of global firm orders; Archer patent acquisition from Lilium: ~300 patents for $21 million (Feb 2025); Lilium bankruptcy: Filed Feb 2025; Volocopter asset sale: ~$11 million to Diamond Aircraft parent (2025)",
+      "source_url": "https://www.fool.com/investing/2026/04/08/joby-vs-archer-aviation-which-evtol-stock-wins-in-2026/",
+      "confidence": "high",
+      "assumed": false,
+      "extras": {
+        "structural_driver": "Number of viable eVTOL OEMs competing for capital and customers; Barriers to entry and path-to-profitability; Strategic acquirers' appetite; Patent concentration and technology differentiation; Design philosophy competition (vectored thrust vs. lift-plus-cruise vs. multirotor)",
+        "mechanism": "eVTOL sector has 800+ development-stage competitors but only 2–3 will survive to profitability. This over-supply of capacity and excess fragmentation depresses valuations: investors discount equity multiples because capital is diffuse and consolidation risk is high. Archer's competitive position is strengthened by early certification lead and strategic partnerships (Stellantis, Boeing, United), but Joby's recent hydrogen-electric success and Airbus/Boeing eVTOL interest create uncertainty. Industry will consolidate to 2–3 winners by 2030, eliminating small players and non-viable designs.",
+        "sensitivity": "M",
+        "historical_example": "Regional jet market 1990s–2000s consolidated from 10+ OEMs (Bombardier, Embraer, Fairchild, Saab) down to 2 survivors; eVTOL will follow similar consolidation arc.",
+        "linked_a21_metric": "Sector-Wide eVTOL Downturn and Valuation Multiple Compression; Market caps compressed because investors uncertain whether any OEM will survive competitive consolidation with acceptable unit economics."
+      }
+    },
+    {
+      "label": "Labor Cost Arbitrage & Automation Value Proposition",
+      "value": "Labor cost share of transport operations: 40–45%; Transit agency workforce shortages: 96% of agencies affected; U.S. driver deficit projected 2030: 160,000; Transit workers age >55: 43%; Archer Part 141 Pilot Training Academy: Certified 2025 (requires human pilots for near-term commercial ops); Autonomous eVTOL regulatory approval timeline: 5–10 years away",
+      "source_url": "https://www.itf-oecd.org/sites/default/files/docs/adapting-automation-transport-workforce-transition.pdf",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "structural_driver": "Pilot and driver wage rates and availability; Transport labor market tightness (retirement cliff, skill gaps); Drone/autonomous flight readiness and regulatory acceptance; Timeline to unmanned urban operations approval",
+        "mechanism": "Labor cost arbitrage and eventual autonomous operation are often cited eVTOL value propositions. Labor accounts for 40–45% of transport operation costs, and the sector faces critical staffing shortages (43% transit workers >55; 160K driver deficit by 2030). However, eVTOL's near-term path requires human pilots—Archer achieved Part 141 Pilot Training Academy certification in 2025, meaning near-term business model will employ trained pilots, not reduce labor costs. Autonomous eVTOL remains 5–10 years away (regulatory, not technology bottleneck). Thus labor cost arbitrage is a future lever, not a current TSR driver from 2026–2028.",
+        "sensitivity": "L",
+        "historical_example": "Autonomous vehicles were expected to disrupt trucking by 2020; as of 2026, vast majority of long-haul trucking remains human-piloted and labor shortages have intensified. eVTOL autonomous operations will likely follow similar extended S-curve.",
+        "linked_a21_metric": "Strategic Partnerships & Customer Commitments; USAF partnership and Part 141 pilot academy certification signal readiness for human-piloted operations, but investment in pilot training contradicts long-term automation narrative, creating investor uncertainty about near-term profitability."
+      }
+    }
+  ]
+}

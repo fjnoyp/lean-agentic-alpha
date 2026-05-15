@@ -1,0 +1,114 @@
+{
+  "stage": "A3.2",
+  "summary": "eVTOL/UAM addressable market of $4.67B–$28.6B by 2030 with 35–55% CAGR. Airport shuttle/UAM dominates (42.7% of revenue). Archer estimated 8–15% market share by 2030 (195–350 units) pending United Airlines and USAF commercialization. North America CAGR 36–38% provides tailwind; competitive landscape dominated by Joby (first-mover), with Archer's regulatory advantage offering 6–12 month lead time.",
+  "rows": [
+    {
+      "label": "eVTOL Aircraft Market TAM 2030 (Mid-Case, Global)",
+      "value": "$23.4 billion (2023–2030 at 52% CAGR)",
+      "source_url": "https://www.globalairmobilitymarket.com/evtol-market-to-grow-52-cagr-to-2030-latest-marketsandmarkets-forecast/",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "metric": "eVTOL Aircraft Market Size USD bn by 2030",
+        "sensitivity": "H",
+        "range_low": "$4.67 billion (conservative, 35.3% CAGR)",
+        "range_high": "$28.6 billion (optimistic, 54.9% CAGR)",
+        "range_source_low": "https://www.marketsandmarkets.com/Market-Reports/evtol-aircraft-market-28054110.html",
+        "range_source_high": "https://www.grandviewresearch.com/industry-analysis/evtol-aircraft-market-report",
+        "note": "Range reflects different TAM definitions (aircraft-only vs. inclusive of services/infrastructure). Mid-case assumes steady certification and initial service launch by 2028–2029."
+      }
+    },
+    {
+      "label": "North America eVTOL Market CAGR 2024–2030",
+      "value": "36.2% to 38.2% CAGR (USD 184.82M in 2024 to USD 674.41M by 2028)",
+      "source_url": "https://www.businessmarketinsights.com/reports/north-america-evtol-aircraft-market",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "metric": "North America eVTOL CAGR % per annum 2024–2030",
+        "sensitivity": "H",
+        "regional_strength": "North America outpaces global rate (36–38% vs. 35–55% global), driven by FAA regulatory leadership, strongest customer base (United, USAF), and capital availability",
+        "source_regional": "https://www.marketsandmarkets.com/Market-Reports/evtol-aircraft-market-28054110.html"
+      }
+    },
+    {
+      "label": "Urban Air Mobility (Airport Shuttle + Air Taxi) as % of eVTOL Revenue",
+      "value": "42.7% of total eVTOL market revenue in 2025",
+      "source_url": "https://www.marketsandmarkets.com/Market-Reports/evtol-aircraft-market-28054110.html",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "metric": "UAM Revenue as Percentage of Total eVTOL Market %",
+        "sensitivity": "H",
+        "use_case_breakdown": {
+          "airport_shuttle": "Largest sub-segment; Archer primary target via United Airlines partnership",
+          "intra_city_air_taxi": "Urban point-to-point; Joby/Uber focus",
+          "intercity_regional": "15–25% of market (secondary for Archer)",
+          "defense_military": "1–3% of market (Archer USAF partnership)",
+          "emergency_medical": "2–5% of market; 34.85% CAGR (medical evacuation)",
+          "leisure_tourism": "5–10% of market (niche, high-margin)"
+        },
+        "note": "Only UAM percentage quantified at 42.7%; other breakdowns are estimated/inferential"
+      }
+    },
+    {
+      "label": "Global eVTOL Unit Sales Forecast 2030",
+      "value": "2,000 commercial aircraft deliveries by 2030 (Aviation Week)",
+      "source_url": "https://aviationweek.com/aerospace/advanced-air-mobility/aviation-week-doubles-evtol-forecast-expects-2000-deliveries-2030",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "metric": "eVTOL Aircraft Units Delivered by 2030 (global)",
+        "sensitivity": "H",
+        "note": "Aviation Week doubled forecast from prior 1,000 unit projection. Implies ~6 major OEMs each delivering 250–400 units by 2030. Consistent with $23.4B TAM ÷ $5M ASP ≈ 4,680 aircraft, suggesting conservative unit delivery through 2030 with acceleration post-2030."
+      }
+    },
+    {
+      "label": "Archer Aviation Estimated Market Share 2030",
+      "value": "8–15% of global eVTOL TAM (195–350 aircraft units by 2030)",
+      "source_url": null,
+      "confidence": "low",
+      "assumed": true,
+      "extras": {
+        "metric": "Archer Market Share % by 2030 and Unit Forecast",
+        "sensitivity": "H",
+        "derivation": "Assumption based on: (1) United Airlines order 200 aircraft, (2) USAF pilot program 25–50 aircraft, (3) regional/secondary customers 50–100 aircraft. Total 275–350 units assumed as base/bull case. Bear case 60–100 units if partners execute slowly.",
+        "bull_case": "350 units (12–15% share); all partners accelerate",
+        "base_case": "220 units (10% share); United ramps to 120 units, USAF 25, regional 75",
+        "bear_case": "80 units (3–5% share); delays push revenue to 2028–2029",
+        "contingencies": [
+          "United Airlines operational readiness delay → share compresses 3–5%",
+          "Competitor (Joby) captures early market → Archer share capped at 8%",
+          "USAF pilot program accelerates → Archer share expands to 15%+",
+          "Certification delays beyond 2028 → share falls to 3–5%"
+        ]
+      }
+    },
+    {
+      "label": "United Airlines Archer Aircraft Revenue Opportunity (2027–2030)",
+      "value": "$1.0 billion total (200 aircraft × $5M catalog price)",
+      "source_url": "https://archer.com/aircraft",
+      "confidence": "medium",
+      "assumed": false,
+      "extras": {
+        "metric": "Archer Aircraft Revenue from United Airlines USD bn",
+        "sensitivity": "H",
+        "note": "United commitment is for 'up to 200' aircraft; actual ramp depends on airport shuttle operational readiness. Represents 10% of global 2,000-unit 2030 forecast. Revenue timing critical: H2 2026 announcement → Q2 2027 first deliveries (bull) vs. 2028 (base) vs. 2029 (bear). Per A2.3, revenue recognition is 'next TSR inflection point.'",
+        "reference": "A2_3.md (Forward Drivers, Driver #1: Commercial Revenue Launch)"
+      }
+    },
+    {
+      "label": "USAF/Defense eVTOL Market TAM Estimate (ASSUMED)",
+      "value": "$50–200 million annually by 2028; $300–500 million by 2030 (upside scenario)",
+      "source_url": null,
+      "confidence": "low",
+      "assumed": true,
+      "extras": {
+        "metric": "USAF eVTOL Defense TAM USD M per annum 2028–2030",
+        "sensitivity": "M",
+        "derivation": "U.S. Air Force 2027 budget allocates $30.6B for aircraft procurement, but specific eVTOL allocation not publicly detailed. Archer USAF partnership positioned for pilot programs (2026–2027) → potential formal procurement (2028–2030). Conservative estimate assumes $50–200M annually (0.2–0.7% of USAF aircraft budget). Upside ($300–500M) assumes rapid military adoption post-pilot validation.",
+        "note": "Defense TAM is high-sensitivity for Archer due to USAF partnership exclusivity and government customer validation. However, defense procurement timelines are uncertain and typically multi-year with staged milestones."
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "stage": "A5.1",
+  "summary": "Archer Aviation 3-scenario valuation (Bull/Base/Bear) as of May 2027 (12-month horizon from May 2026 current price of $6.48). Bull case: $1.2B 2027 revenue, 4.5x EV/Revenue multiple, +33% return. Base case: $750M revenue, 2.5x multiple, -50% return. Bear case: $200M revenue, 1.5x multiple, -82% return. Probability-weighted expected return: -44.3% (market pricing in bull case assumptions).",
+  "current_price_assumed": 6.48,
+  "expected_return_pct": -44.3,
+  "rows": [
+    {
+      "label": "Bull Case (Probability 15%): All Three Drivers Execute On Schedule",
+      "value": "$8.63 stock price (May 2027) | +33.1% return",
+      "source_url": "A2_3.md; A3_3.md; A4_2.md",
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "scenario": "bull",
+        "probability_pct": 15,
+        "eps": null,
+        "revenue_2027m": 1200,
+        "revenue_proxy": "Revenue per share = $1.2B ÷ 800M shares = $1.50/share",
+        "multiple": 4.5,
+        "multiple_type": "EV/Revenue (2027 forward)",
+        "implied_ev": 5400,
+        "implied_market_cap": 6900,
+        "implied_price": 8.63,
+        "return_pct": 33.1,
+        "key_assumption": "Production ramp achieves 240 aircraft (95% of 252 target); Abu Dhabi launches Q3 2026 and ramps to 10-15 flights/day; eIPP launches H2 2026 with $20-30M ARR; FAA Type Cert delivered Q4 2026; 400 Wh/kg battery confirmed on schedule; capital raise remains manageable via debt/partnerships (Stellantis $400M non-dilutive + Fed rate cuts support debt markets); minimal additional dilution beyond base $450M raise.",
+        "input_sources": {
+          "revenue_driver": "A2.3 Commercial Revenue Launch driver (+18% TSR base case); A3.3 Abu Dhabi 75% launch probability Q3 2026, eIPP 80% H2 2026, Type Cert 65% Q4 2026",
+          "production_target": "A3.3 252 aircraft/year target; A4.1 200-240 aircraft delivery achieves 80-95% of target reflecting execution challenges but strong execution",
+          "multiple_guidance": "Brief: 3.5-4.5x EV/Revenue for bull case; comparable to Joby 4.8x per A4.1",
+          "capital_efficiency": "A2.3 identifies Stellantis $400M manufacturing capital + Fed rate cuts (50bp decline to 3.0-3.25% per A3.1) as non-dilutive capital sources",
+          "macro_support": "A3.1: Fed funds decline 50bp, 10-year yields decline 37bp, PCE inflation declines 50bp, supporting customer demand and capital availability"
+        }
+      }
+    },
+    {
+      "label": "Base Case (Probability 60%): Two Drivers Execute Substantially, One Slips 3-6 Months",
+      "value": "$3.25 stock price (May 2027) | -49.7% return",
+      "source_url": "A2_3.md; A3_3.md; A4_1.md; A4_2.md",
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "scenario": "base",
+        "probability_pct": 60,
+        "eps": null,
+        "revenue_2027m": 750,
+        "revenue_proxy": "Revenue per share = $750M ÷ 800M shares = $0.9375/share",
+        "multiple": 2.5,
+        "multiple_type": "EV/Revenue (2027 forward)",
+        "implied_ev": 1875,
+        "implied_market_cap": 2575,
+        "implied_price": 3.25,
+        "return_pct": -49.7,
+        "key_assumption": "Production ramp achieves 150 aircraft (60% of 252 target) due to labor availability constraints (56% aerospace hiring difficulty per A3.1, 3.1-3.4% wage inflation); Abu Dhabi launches Q3 2026 but achieves 5-8 flights/day vs. 10-15 in bull case; eIPP launches H2 2026 but scale limited to $10-15M ARR; FAA Type Cert slips 3 months to Q1 2027 (vs. Q4 2026 in bull), delaying unlimited US commercial scaling; battery 400 Wh/kg on schedule but supply constrained, adding 5-10% manufacturing cost inflation per A3.1 electricity forecasts (+8-14%); additional $400M dilutive capital raise required Q4 2026, implying 5% dilution vs. bull case lower dilution.",
+        "input_sources": {
+          "revenue_driver": "A2.3 Commercial Revenue Launch driver: base case implies partial execution; A3.3 Abu Dhabi 75% prob, eIPP 80% prob, but Type Cert 65% prob creates timing risk",
+          "production_constraint": "A3.1 unemployment 4.2%, wage growth 3.1-3.4%, aerospace sector 56% hiring difficulty — structural constraint on production ramp scaling",
+          "multiple_compression": "Brief base case 2.0-2.5x multiple; A4.2 notes additional dilution and execution uncertainty compresses multiple from bull's 4.5x to 2.5x",
+          "regulatory_timing": "A3.3 Type Cert Q4 2026-Q1 2027 window; base case assumes late end (Jan-Mar 2027), losing first-mover advantage to Joby (late 2026 expected per A4.1)",
+          "capital_requirement": "A2.3 forecasts $300-500M additional raise needed by 2027; base case assumes higher end of range ($400M) on dilutive terms (5% dilution)"
+        }
+      }
+    },
+    {
+      "label": "Bear Case (Probability 25%): Major Delays Across Multiple Drivers",
+      "value": "$1.18 stock price (May 2027) | -81.8% return",
+      "source_url": "A2_3.md; A3_3.md; A4_1.md; A4_3.md",
+      "confidence": "low",
+      "assumed": true,
+      "extras": {
+        "scenario": "bear",
+        "probability_pct": 25,
+        "eps": null,
+        "revenue_2027m": 200,
+        "revenue_proxy": "Revenue per share = $200M ÷ 850M shares = $0.235/share",
+        "multiple": 1.5,
+        "multiple_type": "EV/Revenue (2027 forward)",
+        "implied_ev": 300,
+        "implied_market_cap": 1000,
+        "implied_price": 1.18,
+        "return_pct": -81.8,
+        "key_assumption": "<50 aircraft delivered in 2027 (20% of 252 target); Abu Dhabi launch delayed to Q4 2026 or Q1 2027 (unforeseen GCAA requirement or aircraft readiness); eIPP faces FAA safety review or local transportation authority barrier, delaying pilot to 2027; FAA Type Cert slips 6+ months to Q2 2027 following unexpected TIA-phase technical discovery per A3.3 regulatory risk; battery 400 Wh/kg confirmation delayed to 2028 (competitors accelerate alternative battery roadmaps); macro tightening forces $500M+ dilutive capital raise at distressed valuation (15-20% equity loss); company enters 2028 with runway still at risk and revenue below profitability inflection point.",
+        "input_sources": {
+          "revenue_driver": "A2.3 Commercial Revenue Launch: bear case implies 1+ drivers slip materially or fail; A3.3 shows individual event probabilities (Abu Dhabi 75%, eIPP 80%, Type Cert 65%, USAF 60%, Production 50%) — combined probability all hit is ~39%, so bear case assumes cascading failures",
+          "regulatory_slip": "A3.3 notes FAA TIA phase 'prone to surprises'; A4.1 references historical precedent (Lilium delays); Congress-directed 270-day review timeline per A3.3 helps Joby/Archer but unanticipated technical requirement could still slip 6+ months",
+          "battery_constraint": "A2.3 identifies 400 Wh/kg as HIGH-sensitivity gate; A4.2 notes sector-wide battery supply constraint; any slip cascades to production schedule and timeline",
+          "capital_crisis": "A2.3 notes macro tightening (higher rates, VC pullback) could force dilutive raise; A3.1 forecasts HY spreads widening 21-71bp by May 2027, increasing cost of debt and equity",
+          "historical_precedent": "A4.1 cites Lilium collapse from $3.2B to $32.89M (99% loss) as execution failure case study in eVTOL sector"
+        }
+      }
+    }
+  ]
+}

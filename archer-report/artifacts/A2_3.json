@@ -1,0 +1,45 @@
+{
+  "stage": "A2.3",
+  "summary": "Archer Aviation's 12-month forward TSR (May 2026–May 2027) will be primarily driven by three critical inflection points: whether first commercial revenue from USAF or United Airlines materializes (upside +18% to downside -8%), whether FAA Type Certification progress stays on schedule for 2027–2028 (upside +15% to downside -12%), and whether solid-state battery hits 400 Wh/kg while capital markets provide non-dilutive financing (upside +12% to downside -14%). Combined probability-weighted expected impact is +19% with significant downside tail risk of -34% if two or more drivers slip simultaneously.",
+  "rows": [
+    {
+      "label": "Commercial Revenue Launch & Partnership Monetization",
+      "value": "+10% expected TSR impact (range: +18% upside to -8% downside)",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "direction": "+",
+        "expected_impact_pct": 10,
+        "key_uncertainty": "Timing of first USAF/United paid operations: H2 2026–Q1 2027 (bull case) vs. Q2–Q3 2027 (base case) vs. 2028+ (bear case). Initial revenue scale (defense vs. commercial airline) also uncertain.",
+        "evidence": "A2.1 Section 4 states 'Revenue recognition from partnerships will be the next TSR inflection point. Until first paying customer revenue appears (likely 2026–2027), partnerships remain sentiment-positive but TSR-neutral.' A2.2 inflection points project 'United Airlines or USAF receives first eVTOL deliveries and begins paying for operations (2027–2028).' A2.1 notes that despite regulatory milestone execution, 'the stock declined from a 2025 high of $12.47 (January) to $6.28 (May 2026), suggesting that milestone achievement alone does not drive TSR in a pre-revenue, heavily-diluted equity structure.' Historical precedent: August 2023 USAF partnership surge was +40%; actual revenue would be 2–3x more impactful."
+      }
+    },
+    {
+      "label": "FAA Type Certification Completion & Commercial Operations Pathway",
+      "value": "+7% expected TSR impact (range: +15% upside to -12% downside)",
+      "source_url": null,
+      "confidence": "high",
+      "assumed": true,
+      "extras": {
+        "direction": "+",
+        "expected_impact_pct": 7,
+        "key_uncertainty": "Whether remaining ~50 FAA regulatory rules introduce unexpected technical requirements (distributed electric propulsion, autonomous functions, hybrid architectures) causing 6–12 month timeline extension. Type Certification is binary outcome: on schedule validates execution, but slip revives pre-revenue uncertainty.",
+        "evidence": "A2.2 Section 2 identifies Type Cert as 'MEDIUM sensitivity' but 'binary' outcome: 'any FAA requirement unanticipated in the AC 21.17-4 guidance could slip timelines.' A2.2 timeline table shows 'final Type Certification still 18–24 months away as of May 2026' (May 2027–Nov 2027 expected window, likely spilling into 2028). A2.1 Section 3 notes Archer 'surpassed Joby and other competitors in certification speed, yet TSR remains negative,' indicating regulatory progress is already priced in as base case. A2.2 synthesis confirms 'Type Certification for commercial passenger operations still 18–24 months away' as structural headwind; confirmation that it stays on track is moderately positive."
+      }
+    },
+    {
+      "label": "Battery Technology Roadmap Confirmation & Non-Dilutive Capital Markets Access",
+      "value": "+2% expected TSR impact (range: +12% upside to -14% downside)",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "direction": "+/-",
+        "expected_impact_pct": 2,
+        "key_uncertainty": "(a) Production readiness of solid-state battery at 400+ Wh/kg: delivered on schedule by late 2026/early 2027 (bull case) vs. slipped to 2028+ (bear case)? Battery manufacturers have historically slipped timelines. (b) Macro interest rate environment May 2026–May 2027: rates fall, enabling Archer to refinance via cheaper debt or strategic partnerships (Stellantis, Boeing) vs. rates stay elevated, forcing dilutive equity capital raises? Capital markets are exogenous to Archer's execution.",
+        "evidence": "A2.2 Section 1 identifies battery as 'HIGH sensitivity' with 'non-linear gating function': 'Failure to achieve 400 Wh/kg by 2027 would extend commercial timelines by 18–24 months and trigger another valuation reset.' A2.2 states 'solid-state battery development is targeting 400+ Wh/kg by 2026.' A2.2 timeline table shows 'solid-state targeting 400+ Wh/kg by 2026' with '12–18 months (2027–2028 for 400 Wh/kg delivery)' from May 2026 reference point. A2.2 Section 3 emphasizes 'Capital availability is the binding constraint on Archer's path to commercialization. The $850 million raise in June 2025 extended runway, but any macro tightening (higher interest rates, venture fund depletion) would force additional dilution.' A2.1 Section 2 documents dilution pattern: '$850M in June 2025 [followed by] 14% stock price drop at announcement. Each capital raise coincided with stock weakness, indicating investor penalty for the need for dilution.' Net expected impact is slightly positive (battery progress likely) but heavily offset by capital efficiency risk (dilution penalty likely to exceed battery upside)."
+      }
+    }
+  ]
+}

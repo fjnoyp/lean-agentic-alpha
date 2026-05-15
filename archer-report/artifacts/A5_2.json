@@ -1,0 +1,106 @@
+{
+  "stage": "A5.2",
+  "summary": "Stress testing the three A5.1 scenarios reveals that the base case is most fragile to macro shocks (±74 pp Sharpe swing under wage inflation), while the bull case exhibits moderate sensitivity to Fed policy (±24 pp). The bear case remains resilient to incremental credit spread moves (±8 pp) because it already prices severe execution failures.",
+  "rows": [
+    {
+      "label": "Bull Case +1σ: Fed holds rates at 3.64% (no cuts)",
+      "value": "$8.03 per share",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "scenario": "bull",
+        "macro_variable": "Federal Funds Rate",
+        "shock_direction": "+1σ",
+        "new_fair_value": 8.03,
+        "delta_sharpe": -20.5,
+        "description": "Fed does not cut rates as forecast; cost of capital rises 50 bp. Fair value compresses 7% due to higher discount rate. Expected return falls from +33.1% to +23.9%, Sharpe ratio from 65.8% to 45.3%. Triggers edge toward base case execution risk.",
+        "key_risk": "Capital raise terms become less favorable; Stellantis partnership terms worsen"
+      }
+    },
+    {
+      "label": "Bull Case -1σ: Fed cuts 100 bp to 2.64%",
+      "value": "$9.32 per share",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "scenario": "bull",
+        "macro_variable": "Federal Funds Rate",
+        "shock_direction": "-1σ",
+        "new_fair_value": 9.32,
+        "delta_sharpe": 23.8,
+        "description": "Fed cuts aggressively beyond consensus 50 bp; cost of capital falls 100 bp. Fair value expands 8% due to lower discount rate and non-dilutive capital access. Expected return rises from +33.1% to +43.8%, Sharpe ratio from 65.8% to 89.6%. Reinforces bull case capital optionality.",
+        "key_upside": "Non-dilutive Stellantis financing confirmed; production ramp low-risk; first-mover regulatory advantage vs. Joby validated"
+      }
+    },
+    {
+      "label": "Base Case +1σ: Wage growth rises to 4.0% YoY",
+      "value": "$1.13 per share",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "scenario": "base",
+        "macro_variable": "Wage Growth / Labor Cost Inflation",
+        "shock_direction": "+1σ",
+        "new_fair_value": 1.13,
+        "delta_sharpe": -74.0,
+        "description": "Aerospace wage inflation accelerates; production ramp constrained to 120 aircraft vs. base 150. Revenue falls to $600M, EV/Revenue multiple compresses to 2.0x (execution doubt). Stock price collapses 65% from base case to $1.13 (-82.6% from current $6.48). Cascades into bear case capital crisis dynamics.",
+        "key_downside": "Aerospace sector 56% hiring difficulty + 29% workforce retirement wave + tight labor market (4.2% unemployment) create wage inflation spiral. Production bottleneck becomes binding constraint. Forced additional dilutive capital raise.",
+        "cascade_risk": "Leads to bear case outcomes if combined with any Type Cert or Abu Dhabi delays"
+      }
+    },
+    {
+      "label": "Base Case -1σ: Wage growth falls to 2.35% YoY",
+      "value": "$4.88 per share",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "scenario": "base",
+        "macro_variable": "Wage Growth / Labor Cost Inflation",
+        "shock_direction": "-1σ",
+        "new_fair_value": 4.88,
+        "delta_sharpe": 55.2,
+        "description": "Labor cost inflation eases; production ramp improves to 180 aircraft vs. base 150. Revenue rises to $900M, EV/Revenue multiple expands to 3.0x (execution confidence improves). Stock price gains 50% from base case to $4.88 (+24.7% from current). Approaches bull case territory if other drivers also execute.",
+        "key_upside": "Fed rate cuts improve labor supply; wage growth moderates from tight 3.4% to 2.35%. Archer achieves production ramp without premium labor costs. Dilution reduced; net cash position improves. Sets stage for upward revaluation if Abu Dhabi and Type Cert confirm on schedule.",
+        "optionality": "Achieves base case revenue targets at lower cost; opens path to bull case if capital remains non-dilutive"
+      }
+    },
+    {
+      "label": "Bear Case +1σ: HY spreads widen to 400 bp",
+      "value": "$1.03 per share",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "scenario": "bear",
+        "macro_variable": "High-Yield Credit Spreads",
+        "shock_direction": "+1σ",
+        "new_fair_value": 1.03,
+        "delta_sharpe": -4.3,
+        "description": "Credit market shock; HY spreads widen from forecast 300-350 bp to 400 bp. Capital raise forced at distressed valuation (30% discount). Equity dilution increases; stock price falls 13% from bear base of $1.18 to $1.03. Expected return worsens from -81.8% to -84.1%, Sharpe ratio from -189.3% to -193.6%.",
+        "key_risk": "Incremental downside limited in bear case because equity already deeply distressed. Additional spread widening primarily affects cost of debt/convertible raise; equity holder already pricing severe execution failures.",
+        "contagion": "Coupled with +1σ wage inflation shock, this creates compounding liquidity crisis requiring restructuring"
+      }
+    },
+    {
+      "label": "Bear Case -1σ: HY spreads tighten to 250 bp",
+      "value": "$1.42 per share",
+      "source_url": null,
+      "confidence": "medium",
+      "assumed": true,
+      "extras": {
+        "scenario": "bear",
+        "macro_variable": "High-Yield Credit Spreads",
+        "shock_direction": "-1σ",
+        "new_fair_value": 1.42,
+        "delta_sharpe": 8.0,
+        "description": "Credit market improvement; HY spreads tighten from forecast 300-350 bp to 250 bp. Capital can be raised on non-dilutive debt terms (convertible, secured financing). Equity dilution avoided; stock price improves 20% from bear base of $1.18 to $1.42. Expected return improves from -81.8% to -78.1%, Sharpe ratio from -189.3% to -181.3%.",
+        "key_upside": "Even with favorable credit conditions, bear case remains deeply negative; requires recovery in execution drivers (Abu Dhabi launch on schedule, FAA Type Cert delivered, production ramp to 150+ aircraft) to exit downside scenario.",
+        "optionality": "Favorable spreads buy time for execution turnaround; eliminates worst-case 'dilution death spiral' but does not reset cash runway if revenue misses persist"
+      }
+    }
+  ]
+}
